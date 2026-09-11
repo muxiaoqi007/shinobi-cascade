@@ -1,0 +1,12 @@
+{
+  "name": "shinobi-cascade-offline",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Offline shinobi combo roguelike; Node is only used for QA.",
+  "scripts": {
+    "test": "node qa/engine-tests.cjs",
+    "test:balance": "node qa/balance.cjs 3",
+    "test:browser": "node qa/browser-tests.cjs"
+  },
+  "devDependencies": {"playwright": "1.63.0"}
+}

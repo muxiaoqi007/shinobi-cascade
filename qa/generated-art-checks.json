@@ -1,0 +1,1003 @@
+[
+  {
+    "id": "naruto",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "e4259eb8c5a52bdc93c91a18020c79d1ffb9e726b73dcd3dff440e05fa77c77b"
+  },
+  {
+    "id": "sasuke",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "9331dba7f1e123aeade590c9efb00ab3d9874373b40933ea8a7e32c1646bb6f7"
+  },
+  {
+    "id": "sakura",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "4ca9f06058c19df40a6464f24c2cfe4bc0397d0f737198b209c510b583b63c05"
+  },
+  {
+    "id": "kakashi",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "bc3f809ecae7c970f2461764354b340dc29724754d4d43419e5e43fb320e0c55"
+  },
+  {
+    "id": "yamato",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "3b99b8b2d7908623a4da50bdd5ad06faf556693deb541dd6182bc5de5c7b06a9"
+  },
+  {
+    "id": "sai",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "e5b02fdb604e4ccead42b7ecb36479d9fca0791a9036ecdf8ebb8b05372f49e3"
+  },
+  {
+    "id": "shikamaru",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "7d08142ffce7ffedaeb298432a818255f80c318c1e406d1353b50735b6460b1c"
+  },
+  {
+    "id": "ino",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "2e6ad67d1eb2bf7c69d90acf541b3c5d9656afcde2009a7a9d53ff92ecd9e527"
+  },
+  {
+    "id": "choji",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "2b2ebd50b946886d46bd4e9eead2fae1874fc4e65c6eaf2ae11a889938137ae5"
+  },
+  {
+    "id": "asuma",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "6e6517852c9b7762b03dc671dd3c3f4c1bef86d8096531ead7e61da9628a719c"
+  },
+  {
+    "id": "hinata",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "aed7a9b71d8551ab50f5766527156e2b2b2a430a7e4b39867d5833a00cac038b"
+  },
+  {
+    "id": "kiba",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "6839e7143f31874e4950a3c16eb7b480b063e6bde40dfdaec06970f9b27ad84b"
+  },
+  {
+    "id": "shino",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "5792fd266da3b856f15acecfafc3f26e9ef05c257899e80d60002ad17336d4c6"
+  },
+  {
+    "id": "kurenai",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "ec9d338009bc1798a02b45c0e21549c7ce7cc26c5b1236453205741857836889"
+  },
+  {
+    "id": "gaara",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "5863aec15301ec984bcf0d065586173f8fc00ee18be6f41a7dec1cc4a8cd7434"
+  },
+  {
+    "id": "temari",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "0c61c66a738cee308b8befd1e802c01dbfc89d7645901e9861a37e2865de41df"
+  },
+  {
+    "id": "kankuro",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "f8b28bb9cba5587ee8a8a0806a48eb9131a4f8276541ec403e7e218935481fd5"
+  },
+  {
+    "id": "jiraiya",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "ed76df9cbd495188a245b940685d4449353c5c7742497d773955998153e8a32a"
+  },
+  {
+    "id": "tsunade",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "97675712405ee125a9447a109a9aa4e22218745199362bb52fb048e4ed459913"
+  },
+  {
+    "id": "orochimaru",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "bad714d63c28f94c0da4d226c33db2c0cc9dcdd932f5c294408ef9686e1ab9b2"
+  },
+  {
+    "id": "itachi",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "6bf81e171d2f6fd2f6c39c8050fb23cffea85e74e1deec8c1220d7cedd39d81e"
+  },
+  {
+    "id": "kisame",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "98326eed0908c3206bce12b73ae6b884639dc2657aa7a85917c4ed7782b7cda3"
+  },
+  {
+    "id": "deidara",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "a3920bcba8baa0ba317061ef1805608cf4ab61265ce4c7217c2efb8a10004fcf"
+  },
+  {
+    "id": "pain",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "7593e474087014e81ec5a9d27fcb1b4ad96ce1a1004d88e340bb584dbb7bfdf5"
+  },
+  {
+    "id": "minato",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "207832b2c285c374beaf656f6ac6d0dd34eaa6c462e798297260b493f256739f"
+  },
+  {
+    "id": "guy",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "0ee4b724c3a24e0f7a50ba0db6bff56e13f67283e2ff53f2ed09660a55db2e80"
+  },
+  {
+    "id": "lee",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "532cc5d885a1e509e8350cdde5dafc8d2e56b04e3cab289b2aa3d0aca71d5c14"
+  },
+  {
+    "id": "neji",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "75479f67082787946442ab708857f060f5090bab80a9ad216a71fa099370fb7e"
+  },
+  {
+    "id": "hashirama",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "c97316545b4fa90fcd78e3dacc86751716615b65797a1e1122078e493512690b"
+  },
+  {
+    "id": "madara",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "9fe09e091c804a9fdca44002312302a7d7e7d65cf953040a5cbe0b9966a0d1ea"
+  },
+  {
+    "id": "obito",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "b188c6e830f17b062f2ed31996b51966befc1e69cbfa06a9bd25b0a28052dd2c"
+  },
+  {
+    "id": "tenten",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "92a115b1a8a27eb6d18fce784c9d41ec38170f693c75c302a63b424e4b482b02"
+  },
+  {
+    "id": "tobirama",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "d3a53697c6233612f93a1dc6f98a8b20d045aa2c9a2f3b16ceffdd5ad54287b1"
+  },
+  {
+    "id": "hiruzen",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "26b58fcb39575b9b1a7960101112cd8885942d57b8e489ab06ea0e8faf0ab9f1"
+  },
+  {
+    "id": "kushina",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "d6eb6ba6279f9fd33200eca21759b34d7a7cd0a79c7783d13683425daac05384"
+  },
+  {
+    "id": "konan",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "6392e2a74bc509338d50c782f4a07fa08fe5b186f5104ca1864706f5993ac320"
+  },
+  {
+    "id": "sasori",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "d92994b06f633744135dacdb9a883bca66c1308e63105d9466c2f3daae092db3"
+  },
+  {
+    "id": "hidan",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "05bd1ed2018d94fa910fd23c426d4ce80510da527a3f7fafa51346ccde9accfb"
+  },
+  {
+    "id": "kakuzu",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "78e6dc1cac4addc9fd94b17e8e1fdf9b871f926010171e32c61166ae824f7221"
+  },
+  {
+    "id": "zabuza",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "8aa8f54cc9fe7e1f90297ae962780ba160795740bd2faff1e2c6b9bf91abf699"
+  },
+  {
+    "id": "haku",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "e1478f2cadfd6d6db93e0499fc30dc02e24925029fed7cf1d822c2ade56ae13d"
+  },
+  {
+    "id": "mei",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "4f8d03ea8dfdcacb1a808acd5c4afb3f1202d191db602feaf87d35552962c4d7"
+  },
+  {
+    "id": "ay",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "5c1afca74a33bf54b97cf7681d76bd5755fd719b9b2b91571bb9a75ffa9d5873"
+  },
+  {
+    "id": "bee",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "b29429ee69a931d98ae5825c4ec284c18e6f3909e496ec115d2881ecdfe478d6"
+  },
+  {
+    "id": "ohnoki",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "a1b5909eff5ff856caa7a6f81541f98807bde563eb660861737add60cd64abfb"
+  },
+  {
+    "id": "darui",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "32ae178e98e51b0714e139fb568c2d65d6682512bfff1857e2fb3fb0f3de5123"
+  },
+  {
+    "id": "shisui",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "eafeadace8f9c921928ff6176e5bcfac32c14ca208ba9fdb67aa28cae67ddca9"
+  },
+  {
+    "id": "kabuto",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "a86c77ed59377734722aacdb1909f6218c45517f8dcb10fc864c9e4d8379ed24"
+  },
+  {
+    "id": "kimimaro",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "68441eac83bdfad8f2b10a8561949508796e4c1fca80222fe18c2de6daf470bc"
+  },
+  {
+    "id": "suigetsu",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "a9f578aa95ec12f4fd9c12a1b5778b5256dce873f202bde0f40556fbc1d53609"
+  },
+  {
+    "id": "karin",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "43f2cb3c3e5f1c659831db39b2ba3ff21ea3f19bd7d7dbe4b4716bbddf2c6983"
+  },
+  {
+    "id": "jugo",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "50be75d442225b6ff51f03daa8e7e5fa71b7ceb3314eb71023419c81cbf9cae8"
+  },
+  {
+    "id": "rin",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "f5c857a599d72f1280c23b9b75e5f56a922c44684518bb880ff3fb2eeffd442e"
+  },
+  {
+    "id": "nagato",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "c9d14776a7ad193aebcad2d33cb82b4326f6b88cabac91d5222d433e461a0ff9"
+  },
+  {
+    "id": "kaguya",
+    "kind": "ninja",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "960754226aa3e6753da4f798ce15813f5187967edbd761e26678b705a0ad40ce"
+  },
+  {
+    "id": "shadow_scroll",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "2cc553872f2fe99fcc11f08243481477b92b97a573de68b39495eaac350b1bb2"
+  },
+  {
+    "id": "chakra_thread",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "915cdd4ab26243a88e2f0119ace4935c6678f8da633b65f3d911a66a6a5388ed"
+  },
+  {
+    "id": "medical_seal",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "12b09ae9881de27ebce6dd8a6bba75d8ef0a4346ab072091021188280d27c98d"
+  },
+  {
+    "id": "sharingan",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "90033d5f04fb34f079bb63cd44d893a84764f8afc8da183f5a0761073de64254"
+  },
+  {
+    "id": "sage_mode",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "7fc5a7a3fb98ddea164837c100573c299a788aace3f4472f085245b3f7437e9e"
+  },
+  {
+    "id": "curse_mark",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "0523dcad7cfa07f664d0f3ae49f38db6aa745df7af047e01eb71668fbecc321f"
+  },
+  {
+    "id": "eight_gates",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "349f72dd76c2fb4e911788046a1bc18b23ec9ff2833d5aa8b92be1a4cb88e3ec"
+  },
+  {
+    "id": "jinchuriki_core",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "042c3647488f7ae769d1d5a69f015c9581be138ef98c2702ad21da8427edb3aa"
+  },
+  {
+    "id": "flying_raijin",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "a520e72eee5098eeb17a850ec52806aed619a181b80d153ed330c33544b80b05"
+  },
+  {
+    "id": "rinnegan",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "6c14191b06a4a81ae1ab7233a9ddd34bd6b66a89ffb16f406fdb450854b16f84"
+  },
+  {
+    "id": "edo_tensei",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "e1bbcb2c40630bfa65c4521f6117360271980d8cdfe8b937b7de07fb20451ffd"
+  },
+  {
+    "id": "wood_domain",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "e39f62d58dab0eb4b6a48e0d48bb7293e3f7649fb1a32a1d641bc89ff6864c10"
+  },
+  {
+    "id": "akatsuki_ring",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "fb747af5ee9b7153c3442965d66a6001c6fdeae0fc24a997f4b3f19b436a946f"
+  },
+  {
+    "id": "team_tactics",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "097650eaa54cd59da5d1e8fb40ab98daa1a88c92d0e0fb25a3aece6eccfb8d01"
+  },
+  {
+    "id": "element_prism",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "f1ddf9399f8ac71620f75f0db44e1420276620bc677239740cb641aa9f473b34"
+  },
+  {
+    "id": "destiny_knot",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "7c6b843c8b14835b1dace27f6f87314ecd85d3152c0d17d43bf6c1c4a68deb5f"
+  },
+  {
+    "id": "limit_break",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "8fc25b398ae9e11308aa9f96c259332bfc29ae09e0d938dc304a0f18ee4f219d"
+  },
+  {
+    "id": "combo_engine",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "b4c6d76b8000410e749004b2c6e178291cfaee6ac575c99031e5f1c314e1eb0c"
+  },
+  {
+    "id": "ice_mirror",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "2e08b0dab0e71a5e5e7a543ff4a06d0310dd2d03818948ee6ffbfba4f9942dfe"
+  },
+  {
+    "id": "puppet_core",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "36256e7192597784ba65bb0f8dd4fb38a52710b107fbd9f82ee3b7c24b3498ac"
+  },
+  {
+    "id": "paper_wings",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "e54fc48d4f7fe310629ff389a4c5a462e3c50cf684d9eaa5215528c407c6a3c3"
+  },
+  {
+    "id": "sword_archive",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "e74749bcd9d4b52857e892a7b680e04bf0f3802048c223e8074db9dd29082f46"
+  },
+  {
+    "id": "crimson_chain",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "afe44cac52bb86341de2da92bf19d7ad1366867986f423c5a54715005fcabc3b"
+  },
+  {
+    "id": "storm_drum",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "e4096732bfb96634e021219b86112ef88c0177660ddb075aecd70d046e4b7d1a"
+  },
+  {
+    "id": "hokage_cloak",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "6f95f48fc5792f1b2067d27056fafa4b1bc69545a304c05fc3b2d781d9f64308"
+  },
+  {
+    "id": "moon_mirror",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "58d1410538a0ff3231259120c971482c1a8be6082b3125904a894006f46ac2fd"
+  },
+  {
+    "id": "dust_cube",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "66299a8719896208338a223498b9ef260c1f5f973b8a7b6490b59658727d983a"
+  },
+  {
+    "id": "sage_contract",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "6a100ba01089875a8a924b54d8cec428b228c79839d811eb25fe12534b5e0a0c"
+  },
+  {
+    "id": "duet_bell",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "1134309bf5f3e445a9b4dae13f1291c1ce4b9c57b8f1b695397fd28589c2e1f4"
+  },
+  {
+    "id": "solo_kunai",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "23df2c4a4694c8c54949a314fe051c7eae2dbd524316772027fd1cb30f9d90ac"
+  },
+  {
+    "id": "echo_seal",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "ab3a57936101c3a6c9e25c3137f2f300271451b37d587407f363755051f40861"
+  },
+  {
+    "id": "last_flame",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "272703168b0c3e7cc232b658d774e88bd63d0d56911be38055b78f923f5af2c5"
+  },
+  {
+    "id": "chain_abacus",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "0778cb8cfd2d58db9103075c40e08b0070e065ef90a649c1845d9423ef623778"
+  },
+  {
+    "id": "war_banner",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "984233b597ef8217de73d9122656c70f8648b76066ffcb404d58f99ae25559a5"
+  },
+  {
+    "id": "treasure_frog",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "6674c3385bc7b8e582f0648265ea67dbdf789bec3f39e4172fc8c18172f04fe4"
+  },
+  {
+    "id": "training_weights",
+    "kind": "relic",
+    "size": [
+      1024,
+      1536
+    ],
+    "portrait": true,
+    "ratio": 0.6667,
+    "sha256": "533c92e78e2c461579928e867434bd26adad0be6533c60f2eff46d268fce1187"
+  }
+]

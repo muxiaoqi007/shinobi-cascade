@@ -1,0 +1,135 @@
+{
+  "errors": [],
+  "externalRequests": [],
+  "checks": [
+    "Natural first battle won; damage preview equals actual hit; particles and combo chips visible",
+    "Shop purchase, persisted currency and resume work",
+    "Touch emulation: tap select, redraw, inspect, chapter boon, shop advance, mobile codex",
+    "55 ninja + 36 relic gallery, 10 chapter map, full card detail, mobile card selection, offline loading, no console errors"
+  ],
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "cards": [
+        {
+          "width": 85.5,
+          "height": 174.25
+        },
+        {
+          "width": 85.5,
+          "height": 174.25
+        },
+        {
+          "width": 85.5,
+          "height": 174.25
+        },
+        {
+          "width": 85.5,
+          "height": 174.25
+        },
+        {
+          "width": 85.5,
+          "height": 174.25
+        },
+        {
+          "width": 85.5,
+          "height": 174.25
+        },
+        {
+          "width": 85.5,
+          "height": 174.25
+        },
+        {
+          "width": 85.5,
+          "height": 174.25
+        }
+      ],
+      "broken": 0,
+      "bossVisible": true
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "cards": [
+        {
+          "width": 78,
+          "height": 163
+        },
+        {
+          "width": 78,
+          "height": 163
+        },
+        {
+          "width": 78,
+          "height": 163
+        },
+        {
+          "width": 78,
+          "height": 163
+        },
+        {
+          "width": 78,
+          "height": 163
+        },
+        {
+          "width": 78,
+          "height": 163
+        },
+        {
+          "width": 78,
+          "height": 163
+        },
+        {
+          "width": 78,
+          "height": 163
+        }
+      ],
+      "broken": 0,
+      "bossVisible": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "cards": [
+        {
+          "width": 112,
+          "height": 218
+        },
+        {
+          "width": 112,
+          "height": 218
+        },
+        {
+          "width": 112,
+          "height": 218
+        },
+        {
+          "width": 112,
+          "height": 218
+        },
+        {
+          "width": 112,
+          "height": 218
+        },
+        {
+          "width": 112,
+          "height": 218
+        },
+        {
+          "width": 112,
+          "height": 218
+        },
+        {
+          "width": 112,
+          "height": 218
+        }
+      ],
+      "broken": 0,
+      "bossVisible": true
+    }
+  ]
+}

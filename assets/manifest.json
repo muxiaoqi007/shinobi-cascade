@@ -1,0 +1,1185 @@
+[
+  {
+    "id": "naruto",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/naruto.png",
+    "runtime": "assets/cards/ninja/naruto.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 133908,
+    "sha256": "b7d72262a55c6a1e44dbb6c16971fc181fdd77a5b777551cb145cc68827263ec",
+    "prompt": "assets/prompts/ninja-naruto.txt"
+  },
+  {
+    "id": "sasuke",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/sasuke.png",
+    "runtime": "assets/cards/ninja/sasuke.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 115608,
+    "sha256": "49317068c726ec474bc403e31425adaf0824881ebdeab70551a4d07697a9f310",
+    "prompt": "assets/prompts/ninja-sasuke.txt"
+  },
+  {
+    "id": "sakura",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/sakura.png",
+    "runtime": "assets/cards/ninja/sakura.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 120016,
+    "sha256": "a4826e76f8436f4f287d64df7621c2333fef05c84873c95527bcab21fd318272",
+    "prompt": "assets/prompts/ninja-sakura.txt"
+  },
+  {
+    "id": "kakashi",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/kakashi.png",
+    "runtime": "assets/cards/ninja/kakashi.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 112736,
+    "sha256": "015be7cb15d0beaa63df3b3754805215cc810539a4875f6416d7b10983be742e",
+    "prompt": "assets/prompts/ninja-kakashi.txt"
+  },
+  {
+    "id": "yamato",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/yamato.png",
+    "runtime": "assets/cards/ninja/yamato.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 107078,
+    "sha256": "67984b958b9ebb68bf95d9579014ce1e98eae666c4ef2cf3277a68c02097404a",
+    "prompt": "assets/prompts/ninja-yamato.txt"
+  },
+  {
+    "id": "sai",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/sai.png",
+    "runtime": "assets/cards/ninja/sai.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 128642,
+    "sha256": "f185e9b4ed04bb6c83ee8f5032e94cfb26430c227d9a6ba643fe2f997231b22d",
+    "prompt": "assets/prompts/ninja-sai.txt"
+  },
+  {
+    "id": "shikamaru",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/shikamaru.png",
+    "runtime": "assets/cards/ninja/shikamaru.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 75070,
+    "sha256": "01c26f34a758cbea5a4222ae23acff4b675e3670e0437e963043e190a3da8414",
+    "prompt": "assets/prompts/ninja-shikamaru.txt"
+  },
+  {
+    "id": "ino",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/ino.png",
+    "runtime": "assets/cards/ninja/ino.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 92388,
+    "sha256": "1997007f6c965501ef560e41095b4e18c6083394a48460e7b5439cbd99d0c64c",
+    "prompt": "assets/prompts/ninja-ino.txt"
+  },
+  {
+    "id": "choji",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/choji.png",
+    "runtime": "assets/cards/ninja/choji.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 109292,
+    "sha256": "adaa7aa0fd8444cbd8d267e4a8cf32fcf2647c61c63f2660c902ab105132f5b8",
+    "prompt": "assets/prompts/ninja-choji.txt"
+  },
+  {
+    "id": "asuma",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/asuma.png",
+    "runtime": "assets/cards/ninja/asuma.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 89302,
+    "sha256": "ca944fe809472fe2e306a21cf9ba4287fdfd62b54a54d35f675915884a30fe88",
+    "prompt": "assets/prompts/ninja-asuma.txt"
+  },
+  {
+    "id": "hinata",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/hinata.png",
+    "runtime": "assets/cards/ninja/hinata.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 83558,
+    "sha256": "1c9ed716f6eeada5ad7571a0db588b07bc9c36ac6ca194192f1f357ddc955d22",
+    "prompt": "assets/prompts/ninja-hinata.txt"
+  },
+  {
+    "id": "kiba",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/kiba.png",
+    "runtime": "assets/cards/ninja/kiba.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 109344,
+    "sha256": "efd2ec3997167780250892ec688398d7e008dfbf58f6f2819877628c954767dc",
+    "prompt": "assets/prompts/ninja-kiba.txt"
+  },
+  {
+    "id": "shino",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/shino.png",
+    "runtime": "assets/cards/ninja/shino.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 110724,
+    "sha256": "9c5bcb248f288a553b55dfa1f779d7939fe05fa520c153aaf047f22a9ad0a598",
+    "prompt": "assets/prompts/ninja-shino.txt"
+  },
+  {
+    "id": "kurenai",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/kurenai.png",
+    "runtime": "assets/cards/ninja/kurenai.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 99284,
+    "sha256": "311bffc4e7b3d661e3642614283eed17cf4ed11305700dec4d573c96046abfb7",
+    "prompt": "assets/prompts/ninja-kurenai.txt"
+  },
+  {
+    "id": "gaara",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/gaara.png",
+    "runtime": "assets/cards/ninja/gaara.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 137666,
+    "sha256": "f0067fb532df552079bc410bdd1f511fe34442f6f37866665b05edf04455b4d5",
+    "prompt": "assets/prompts/ninja-gaara.txt"
+  },
+  {
+    "id": "temari",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/temari.png",
+    "runtime": "assets/cards/ninja/temari.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 96832,
+    "sha256": "28f4e59ee436945e01ed0a2f9f0ed8c1bbcf6f521dd3f623060a72570469521a",
+    "prompt": "assets/prompts/ninja-temari.txt"
+  },
+  {
+    "id": "kankuro",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/kankuro.png",
+    "runtime": "assets/cards/ninja/kankuro.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 79674,
+    "sha256": "b8c49bc9d2c33f47c4d20aa5a9a2c38d25c57bae1738f7563f9e5e4c0aa7bebb",
+    "prompt": "assets/prompts/ninja-kankuro.txt"
+  },
+  {
+    "id": "jiraiya",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/jiraiya.png",
+    "runtime": "assets/cards/ninja/jiraiya.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 116746,
+    "sha256": "31866dcde234041aa07ebbf1e9c5443a37788cd1852e08878695a763f95bc397",
+    "prompt": "assets/prompts/ninja-jiraiya.txt"
+  },
+  {
+    "id": "tsunade",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/tsunade.png",
+    "runtime": "assets/cards/ninja/tsunade.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 115944,
+    "sha256": "1ed0c12516969740bfd8141ae77bacbb1ca8da615cf65197f5b5e9fe820a9acf",
+    "prompt": "assets/prompts/ninja-tsunade.txt"
+  },
+  {
+    "id": "orochimaru",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/orochimaru.png",
+    "runtime": "assets/cards/ninja/orochimaru.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 94716,
+    "sha256": "bb50a1431519e3e0f60d0ff9d039beaf6590dc288f6d7b636a60f4bcae6579cb",
+    "prompt": "assets/prompts/ninja-orochimaru.txt"
+  },
+  {
+    "id": "itachi",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/itachi.png",
+    "runtime": "assets/cards/ninja/itachi.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 88726,
+    "sha256": "e604f6234471b15ff75ed278f866e8cc9fa2a2f8da3a82a5004bfbc8bdf50803",
+    "prompt": "assets/prompts/ninja-itachi.txt"
+  },
+  {
+    "id": "kisame",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/kisame.png",
+    "runtime": "assets/cards/ninja/kisame.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 132342,
+    "sha256": "1da571225177ad8cd8d24218b8ab480c9fd872d51f4282bbcddac4b7abea64c7",
+    "prompt": "assets/prompts/ninja-kisame.txt"
+  },
+  {
+    "id": "deidara",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/deidara.png",
+    "runtime": "assets/cards/ninja/deidara.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 121058,
+    "sha256": "2afcfb18fe95e2cca72c3b4e11bf71d423199d24a57dc54c2596f73761d7b6a3",
+    "prompt": "assets/prompts/ninja-deidara.txt"
+  },
+  {
+    "id": "pain",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/pain.png",
+    "runtime": "assets/cards/ninja/pain.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 82606,
+    "sha256": "bd80e4d37febec99f605b359843aec21f23473a303556e513259c68254b7f34e",
+    "prompt": "assets/prompts/ninja-pain.txt"
+  },
+  {
+    "id": "minato",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/minato.png",
+    "runtime": "assets/cards/ninja/minato.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 121982,
+    "sha256": "ce7963234522c22f65c8e2851c237d7e8f3f3e174f5bba665179fa30309105b7",
+    "prompt": "assets/prompts/ninja-minato.txt"
+  },
+  {
+    "id": "guy",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/guy.png",
+    "runtime": "assets/cards/ninja/guy.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 93134,
+    "sha256": "521637aa4891e48c3e7965109d2856debe5677fcf62397bcebbf5daa0ddd0b5b",
+    "prompt": "assets/prompts/ninja-guy.txt"
+  },
+  {
+    "id": "lee",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/lee.png",
+    "runtime": "assets/cards/ninja/lee.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 110196,
+    "sha256": "0003e73822c234409017141f00b735bd83a1f1a68d8117f2a5249b46b1b85143",
+    "prompt": "assets/prompts/ninja-lee.txt"
+  },
+  {
+    "id": "neji",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/neji.png",
+    "runtime": "assets/cards/ninja/neji.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 96428,
+    "sha256": "7098d5b928ddb07f46b445c006d394066cbfa38e543831751d60a9dc5cddaaf9",
+    "prompt": "assets/prompts/ninja-neji.txt"
+  },
+  {
+    "id": "hashirama",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/hashirama.png",
+    "runtime": "assets/cards/ninja/hashirama.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 132062,
+    "sha256": "6eb3d9756fa6171f0cc85e292843c469d33aa587ec783613d8bf44572131317f",
+    "prompt": "assets/prompts/ninja-hashirama.txt"
+  },
+  {
+    "id": "madara",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/madara.png",
+    "runtime": "assets/cards/ninja/madara.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 110184,
+    "sha256": "9f7e8ddb23e0f07d842434afd310a297daa9e117469a1298e7a9dd4afe1a4914",
+    "prompt": "assets/prompts/ninja-madara.txt"
+  },
+  {
+    "id": "obito",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/obito.png",
+    "runtime": "assets/cards/ninja/obito.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 109988,
+    "sha256": "0e7766da22bca09a9e166ffbb9e696ad3ef19dea04f0d0828fa9a123c2e48524",
+    "prompt": "assets/prompts/ninja-obito.txt"
+  },
+  {
+    "id": "tenten",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/tenten.png",
+    "runtime": "assets/cards/ninja/tenten.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 108394,
+    "sha256": "3f593a9a6644a60ea7f409100d5d94abc61dbae2833422d8fbce9b4ded628dad",
+    "prompt": "assets/prompts/ninja-tenten.txt"
+  },
+  {
+    "id": "tobirama",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/tobirama.png",
+    "runtime": "assets/cards/ninja/tobirama.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 150620,
+    "sha256": "1379f2609435df26a7678aa243c5125788df7620ea26f46afb2d6c173fc504ac",
+    "prompt": "assets/prompts/ninja-tobirama.txt"
+  },
+  {
+    "id": "hiruzen",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/hiruzen.png",
+    "runtime": "assets/cards/ninja/hiruzen.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 138514,
+    "sha256": "e114a0e18e089671487d424372cef6d503e495bdaa41d1a5a11dbfe5095ed0ea",
+    "prompt": "assets/prompts/ninja-hiruzen.txt"
+  },
+  {
+    "id": "kushina",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/kushina.png",
+    "runtime": "assets/cards/ninja/kushina.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 131710,
+    "sha256": "3ed3170ae94ca9a103155697cf112eb9e9bfff760c19cebbfbbe38522b1c0304",
+    "prompt": "assets/prompts/ninja-kushina.txt"
+  },
+  {
+    "id": "konan",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/konan.png",
+    "runtime": "assets/cards/ninja/konan.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 86126,
+    "sha256": "d825f42727fa97124d246ab2ec8e2dc7bd71b713d4bafcdad44edffd1d7cdc4f",
+    "prompt": "assets/prompts/ninja-konan.txt"
+  },
+  {
+    "id": "sasori",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/sasori.png",
+    "runtime": "assets/cards/ninja/sasori.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 83498,
+    "sha256": "205973f13655ac2be2fc297e62bf982d65a40bb2f68eb179f7c21fe1da5333cb",
+    "prompt": "assets/prompts/ninja-sasori.txt"
+  },
+  {
+    "id": "hidan",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/hidan.png",
+    "runtime": "assets/cards/ninja/hidan.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 80312,
+    "sha256": "a6a47c74c149b73eeccbb77d3d64f0cb77cf32382680a397081c2af08ef1f3fd",
+    "prompt": "assets/prompts/ninja-hidan.txt"
+  },
+  {
+    "id": "kakuzu",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/kakuzu.png",
+    "runtime": "assets/cards/ninja/kakuzu.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 116322,
+    "sha256": "b8e50a8d3791ffa45edc15bbbff67c094be6fcb57506291ab8280ea751b35ae7",
+    "prompt": "assets/prompts/ninja-kakuzu.txt"
+  },
+  {
+    "id": "zabuza",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/zabuza.png",
+    "runtime": "assets/cards/ninja/zabuza.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 98172,
+    "sha256": "a782fe77a9cb20acf6e2e64e669ea07410a9df08f0ebccc678efeab954153d80",
+    "prompt": "assets/prompts/ninja-zabuza.txt"
+  },
+  {
+    "id": "haku",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/haku.png",
+    "runtime": "assets/cards/ninja/haku.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 124068,
+    "sha256": "1ebcc653ba2047e66f0a410960d5c5cf13b9f095c29cc88fba8cae2c583e8385",
+    "prompt": "assets/prompts/ninja-haku.txt"
+  },
+  {
+    "id": "mei",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/mei.png",
+    "runtime": "assets/cards/ninja/mei.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 105764,
+    "sha256": "7f3ae39c856d306897fc5fdb1d8d94d2bc6f046fd54bad0e38c92763c982d70a",
+    "prompt": "assets/prompts/ninja-mei.txt"
+  },
+  {
+    "id": "ay",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/ay.png",
+    "runtime": "assets/cards/ninja/ay.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 93774,
+    "sha256": "f166b803d7747ab318fee2e0d601d1b695181902f6984575e01d557147fab684",
+    "prompt": "assets/prompts/ninja-ay.txt"
+  },
+  {
+    "id": "bee",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/bee.png",
+    "runtime": "assets/cards/ninja/bee.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 138422,
+    "sha256": "10cc3c2258c6b15875cdb366d8699ff19d3f49141b24508373fe9ee3a854b5a5",
+    "prompt": "assets/prompts/ninja-bee.txt"
+  },
+  {
+    "id": "ohnoki",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/ohnoki.png",
+    "runtime": "assets/cards/ninja/ohnoki.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 96514,
+    "sha256": "b5b9d4415e1e31d51aabc76d4c2508fc7bcb2a629402bd5a89e85ba380eb69d5",
+    "prompt": "assets/prompts/ninja-ohnoki.txt"
+  },
+  {
+    "id": "darui",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/darui.png",
+    "runtime": "assets/cards/ninja/darui.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 105548,
+    "sha256": "13f3376e5284c322f062b6756e00ff32a525356c20a003d14cc20829517ded52",
+    "prompt": "assets/prompts/ninja-darui.txt"
+  },
+  {
+    "id": "shisui",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/shisui.png",
+    "runtime": "assets/cards/ninja/shisui.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 112710,
+    "sha256": "53de90292d2adc3560de66c1f331338865506e626e8a366ee77225ff211e21e5",
+    "prompt": "assets/prompts/ninja-shisui.txt"
+  },
+  {
+    "id": "kabuto",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/kabuto.png",
+    "runtime": "assets/cards/ninja/kabuto.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 92052,
+    "sha256": "688bea07421ce5230ddfdc5b8d23ca739c2f805a86e125900e90355e8992defb",
+    "prompt": "assets/prompts/ninja-kabuto.txt"
+  },
+  {
+    "id": "kimimaro",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/kimimaro.png",
+    "runtime": "assets/cards/ninja/kimimaro.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 93382,
+    "sha256": "359c4a9689e4c7e7c1aac045feaf5edbbb925e74cbd288e38615b351671d3b30",
+    "prompt": "assets/prompts/ninja-kimimaro.txt"
+  },
+  {
+    "id": "suigetsu",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/suigetsu.png",
+    "runtime": "assets/cards/ninja/suigetsu.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 111632,
+    "sha256": "f97a537618e5007b19ebf468a118b6c02543210fc7bf1be6f840a408cee33b8a",
+    "prompt": "assets/prompts/ninja-suigetsu.txt"
+  },
+  {
+    "id": "karin",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/karin.png",
+    "runtime": "assets/cards/ninja/karin.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 101440,
+    "sha256": "90203299a2d8554e5d51c60f4fa8bcec7e6ac742cc734433f218048a50341105",
+    "prompt": "assets/prompts/ninja-karin.txt"
+  },
+  {
+    "id": "jugo",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/jugo.png",
+    "runtime": "assets/cards/ninja/jugo.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 124152,
+    "sha256": "07e7f2f9912b42979e6909cc5f17bb1585625cd5758eb3ade053126375ea679f",
+    "prompt": "assets/prompts/ninja-jugo.txt"
+  },
+  {
+    "id": "rin",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/rin.png",
+    "runtime": "assets/cards/ninja/rin.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 97220,
+    "sha256": "e47e2a7bfbd41f7fcf3d932d224cafc97193ff9a1493cd59ff27d42a2561e9d2",
+    "prompt": "assets/prompts/ninja-rin.txt"
+  },
+  {
+    "id": "nagato",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/nagato.png",
+    "runtime": "assets/cards/ninja/nagato.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 99160,
+    "sha256": "54df2249609324e3fe2dd4257a4ba51829a72de5d3dd94558490b5dd19c5594e",
+    "prompt": "assets/prompts/ninja-nagato.txt"
+  },
+  {
+    "id": "kaguya",
+    "kind": "ninja",
+    "source": "assets/generated/ninja/kaguya.png",
+    "runtime": "assets/cards/ninja/kaguya.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 119846,
+    "sha256": "3b6669671aa626028bd9296928ab4ab5c307b4cb0fbd272b7ebc81d10b7a7dc2",
+    "prompt": "assets/prompts/ninja-kaguya.txt"
+  },
+  {
+    "id": "shadow_scroll",
+    "kind": "relic",
+    "source": "assets/generated/relic/shadow_scroll.png",
+    "runtime": "assets/cards/relic/shadow_scroll.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 129028,
+    "sha256": "2161fa18624927ee78ac207a0c4f9183cd5d0251276b6e23997c9f773c5c4a78",
+    "prompt": "assets/prompts/relic-shadow_scroll.txt"
+  },
+  {
+    "id": "chakra_thread",
+    "kind": "relic",
+    "source": "assets/generated/relic/chakra_thread.png",
+    "runtime": "assets/cards/relic/chakra_thread.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 123546,
+    "sha256": "dc723e81036106ea6063b797cdbcc534ceee71b7cbc938a28b2b6dde102e3af3",
+    "prompt": "assets/prompts/relic-chakra_thread.txt"
+  },
+  {
+    "id": "medical_seal",
+    "kind": "relic",
+    "source": "assets/generated/relic/medical_seal.png",
+    "runtime": "assets/cards/relic/medical_seal.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 114494,
+    "sha256": "51aa9bff27d9b57819afab0dbe049bb9609e810d8392ebace3d81aaf13f4d0d4",
+    "prompt": "assets/prompts/relic-medical_seal.txt"
+  },
+  {
+    "id": "sharingan",
+    "kind": "relic",
+    "source": "assets/generated/relic/sharingan.png",
+    "runtime": "assets/cards/relic/sharingan.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 89588,
+    "sha256": "28ccb1c1e3b85265879df849e7fa2bc5978694e991846f53d0e666a363683b60",
+    "prompt": "assets/prompts/relic-sharingan.txt"
+  },
+  {
+    "id": "sage_mode",
+    "kind": "relic",
+    "source": "assets/generated/relic/sage_mode.png",
+    "runtime": "assets/cards/relic/sage_mode.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 127220,
+    "sha256": "1410f09c718a88427ba9a30c6d85d36cdaa101c1c7ebc09bb67e12e1f93a92b6",
+    "prompt": "assets/prompts/relic-sage_mode.txt"
+  },
+  {
+    "id": "curse_mark",
+    "kind": "relic",
+    "source": "assets/generated/relic/curse_mark.png",
+    "runtime": "assets/cards/relic/curse_mark.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 102326,
+    "sha256": "d6d851b246f88fafce9a74c95a04beecc2a824d3f4132a744942c645c3a9bcd4",
+    "prompt": "assets/prompts/relic-curse_mark.txt"
+  },
+  {
+    "id": "eight_gates",
+    "kind": "relic",
+    "source": "assets/generated/relic/eight_gates.png",
+    "runtime": "assets/cards/relic/eight_gates.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 136034,
+    "sha256": "84f9fac232a42f31811ed8c6bfa4cb68fa31b263f7672e53a565659360a9e11b",
+    "prompt": "assets/prompts/relic-eight_gates.txt"
+  },
+  {
+    "id": "jinchuriki_core",
+    "kind": "relic",
+    "source": "assets/generated/relic/jinchuriki_core.png",
+    "runtime": "assets/cards/relic/jinchuriki_core.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 116692,
+    "sha256": "95ace0e6b37c376d41e676966e4202ed580e8b8ce774773d2d0685087f78cc23",
+    "prompt": "assets/prompts/relic-jinchuriki_core.txt"
+  },
+  {
+    "id": "flying_raijin",
+    "kind": "relic",
+    "source": "assets/generated/relic/flying_raijin.png",
+    "runtime": "assets/cards/relic/flying_raijin.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 105980,
+    "sha256": "fae21cb1eb67d6ca31dd481512ebc7c62e65579739688a56eca1a3fa06e972b9",
+    "prompt": "assets/prompts/relic-flying_raijin.txt"
+  },
+  {
+    "id": "rinnegan",
+    "kind": "relic",
+    "source": "assets/generated/relic/rinnegan.png",
+    "runtime": "assets/cards/relic/rinnegan.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 110008,
+    "sha256": "a393b691cdee25b77734d604f56a51882f90ed8e4e15f145e68aeff6f1207390",
+    "prompt": "assets/prompts/relic-rinnegan.txt"
+  },
+  {
+    "id": "edo_tensei",
+    "kind": "relic",
+    "source": "assets/generated/relic/edo_tensei.png",
+    "runtime": "assets/cards/relic/edo_tensei.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 115400,
+    "sha256": "5e36e3adf0ff4360a24d67639481414efab742c362a5bf64d024ac5b1ed6e572",
+    "prompt": "assets/prompts/relic-edo_tensei.txt"
+  },
+  {
+    "id": "wood_domain",
+    "kind": "relic",
+    "source": "assets/generated/relic/wood_domain.png",
+    "runtime": "assets/cards/relic/wood_domain.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 121492,
+    "sha256": "10417abc84f4102b10d0a21603f202ceee1978f4ec6ec23d9d365f07b3a31eac",
+    "prompt": "assets/prompts/relic-wood_domain.txt"
+  },
+  {
+    "id": "akatsuki_ring",
+    "kind": "relic",
+    "source": "assets/generated/relic/akatsuki_ring.png",
+    "runtime": "assets/cards/relic/akatsuki_ring.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 97806,
+    "sha256": "4d7237dd8a69b51983fa3481efe14eafd2524ca0eb5de4462c9ebf4e74ab1963",
+    "prompt": "assets/prompts/relic-akatsuki_ring.txt"
+  },
+  {
+    "id": "team_tactics",
+    "kind": "relic",
+    "source": "assets/generated/relic/team_tactics.png",
+    "runtime": "assets/cards/relic/team_tactics.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 125022,
+    "sha256": "985c5e33db18e9312a7dfb189934e1e0860a7ed410d5ab850179dece5fd7765a",
+    "prompt": "assets/prompts/relic-team_tactics.txt"
+  },
+  {
+    "id": "element_prism",
+    "kind": "relic",
+    "source": "assets/generated/relic/element_prism.png",
+    "runtime": "assets/cards/relic/element_prism.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 116356,
+    "sha256": "d724798f8849e1989afbfae0a127658fb2562fe6d34cb69bd4ef20b1182d9c15",
+    "prompt": "assets/prompts/relic-element_prism.txt"
+  },
+  {
+    "id": "destiny_knot",
+    "kind": "relic",
+    "source": "assets/generated/relic/destiny_knot.png",
+    "runtime": "assets/cards/relic/destiny_knot.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 115834,
+    "sha256": "106f81aea8ba27d75efc06c2641cf0fe0301d8f7b32e2a3c1d119c636ee6de39",
+    "prompt": "assets/prompts/relic-destiny_knot.txt"
+  },
+  {
+    "id": "limit_break",
+    "kind": "relic",
+    "source": "assets/generated/relic/limit_break.png",
+    "runtime": "assets/cards/relic/limit_break.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 106438,
+    "sha256": "8f56de0e7f61868428f4e6cb63d67baaf86f25513385be86255b69b3a77e1759",
+    "prompt": "assets/prompts/relic-limit_break.txt"
+  },
+  {
+    "id": "combo_engine",
+    "kind": "relic",
+    "source": "assets/generated/relic/combo_engine.png",
+    "runtime": "assets/cards/relic/combo_engine.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 126876,
+    "sha256": "899d7adcaddd1cda013252578daf51eee1e5b7ab10b881fa6cf494d52e778502",
+    "prompt": "assets/prompts/relic-combo_engine.txt"
+  },
+  {
+    "id": "ice_mirror",
+    "kind": "relic",
+    "source": "assets/generated/relic/ice_mirror.png",
+    "runtime": "assets/cards/relic/ice_mirror.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 109758,
+    "sha256": "c02e56c2f2ddbc831b3af879fb67e82d8298fb2c41e04023512ec76a5f6411b0",
+    "prompt": "assets/prompts/relic-ice_mirror.txt"
+  },
+  {
+    "id": "puppet_core",
+    "kind": "relic",
+    "source": "assets/generated/relic/puppet_core.png",
+    "runtime": "assets/cards/relic/puppet_core.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 105562,
+    "sha256": "447ca795ea066aeb0102ba31764e09c6655ae1fa256ed3f61ba2ceba03bd6b86",
+    "prompt": "assets/prompts/relic-puppet_core.txt"
+  },
+  {
+    "id": "paper_wings",
+    "kind": "relic",
+    "source": "assets/generated/relic/paper_wings.png",
+    "runtime": "assets/cards/relic/paper_wings.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 90440,
+    "sha256": "e62ffc476462e7349793b769efeab5c8af47dc3a1d79a3ce04861a52ccad3c6d",
+    "prompt": "assets/prompts/relic-paper_wings.txt"
+  },
+  {
+    "id": "sword_archive",
+    "kind": "relic",
+    "source": "assets/generated/relic/sword_archive.png",
+    "runtime": "assets/cards/relic/sword_archive.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 108862,
+    "sha256": "f62ad4fce79e87fd67a034f4663702e63351fc3fac240f322434672991ccffce",
+    "prompt": "assets/prompts/relic-sword_archive.txt"
+  },
+  {
+    "id": "crimson_chain",
+    "kind": "relic",
+    "source": "assets/generated/relic/crimson_chain.png",
+    "runtime": "assets/cards/relic/crimson_chain.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 110094,
+    "sha256": "cd5ff653dd44d642a4f7a709174639a834434778623836ffb85321f806c9fc6b",
+    "prompt": "assets/prompts/relic-crimson_chain.txt"
+  },
+  {
+    "id": "storm_drum",
+    "kind": "relic",
+    "source": "assets/generated/relic/storm_drum.png",
+    "runtime": "assets/cards/relic/storm_drum.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 122806,
+    "sha256": "a4f289b6d20a3347c5e996d2f4955d1863277ed748a093c1b455686ef0fc937e",
+    "prompt": "assets/prompts/relic-storm_drum.txt"
+  },
+  {
+    "id": "hokage_cloak",
+    "kind": "relic",
+    "source": "assets/generated/relic/hokage_cloak.png",
+    "runtime": "assets/cards/relic/hokage_cloak.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 101276,
+    "sha256": "03bbff978ed626866c6d9ef7032b2caf2cce792770577dff1314df09043c63b9",
+    "prompt": "assets/prompts/relic-hokage_cloak.txt"
+  },
+  {
+    "id": "moon_mirror",
+    "kind": "relic",
+    "source": "assets/generated/relic/moon_mirror.png",
+    "runtime": "assets/cards/relic/moon_mirror.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 97134,
+    "sha256": "4ed2caad34462013dca1bacdf0c22c04a763c4c199b704074e22b8fedd24c685",
+    "prompt": "assets/prompts/relic-moon_mirror.txt"
+  },
+  {
+    "id": "dust_cube",
+    "kind": "relic",
+    "source": "assets/generated/relic/dust_cube.png",
+    "runtime": "assets/cards/relic/dust_cube.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 115312,
+    "sha256": "d3898a05a82fb864881ce3a0c0649c66d9ddaa30d51f4b386086a61fbdbfc502",
+    "prompt": "assets/prompts/relic-dust_cube.txt"
+  },
+  {
+    "id": "sage_contract",
+    "kind": "relic",
+    "source": "assets/generated/relic/sage_contract.png",
+    "runtime": "assets/cards/relic/sage_contract.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 112832,
+    "sha256": "922a43cbc34c47e6972e711f2faa5db28492d5b572a4984aeff9f9674fdf30e2",
+    "prompt": "assets/prompts/relic-sage_contract.txt"
+  },
+  {
+    "id": "duet_bell",
+    "kind": "relic",
+    "source": "assets/generated/relic/duet_bell.png",
+    "runtime": "assets/cards/relic/duet_bell.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 101214,
+    "sha256": "7aa2aec1cb3d88b24be92c8274656df2ab8e16d7195827a4c88e3f67b155c506",
+    "prompt": "assets/prompts/relic-duet_bell.txt"
+  },
+  {
+    "id": "solo_kunai",
+    "kind": "relic",
+    "source": "assets/generated/relic/solo_kunai.png",
+    "runtime": "assets/cards/relic/solo_kunai.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 96746,
+    "sha256": "93964d9ec3d6fc00cd154325d63e1d78d031675f76d67401c1badcf28ebfad56",
+    "prompt": "assets/prompts/relic-solo_kunai.txt"
+  },
+  {
+    "id": "echo_seal",
+    "kind": "relic",
+    "source": "assets/generated/relic/echo_seal.png",
+    "runtime": "assets/cards/relic/echo_seal.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 111134,
+    "sha256": "acb7fbaac01d6d66c3d2a1bab82f8b36fa332169e755eb3f4cb3a8766b2bda62",
+    "prompt": "assets/prompts/relic-echo_seal.txt"
+  },
+  {
+    "id": "last_flame",
+    "kind": "relic",
+    "source": "assets/generated/relic/last_flame.png",
+    "runtime": "assets/cards/relic/last_flame.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 108500,
+    "sha256": "b4087a5dd194b96e5903a1c558c6c6fa3a118e6ce0fcef7110f5606235f7fc51",
+    "prompt": "assets/prompts/relic-last_flame.txt"
+  },
+  {
+    "id": "chain_abacus",
+    "kind": "relic",
+    "source": "assets/generated/relic/chain_abacus.png",
+    "runtime": "assets/cards/relic/chain_abacus.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 135066,
+    "sha256": "ee44c3321927633cf29602e8466fc7ba04463103f72daef093c6bf08b1676318",
+    "prompt": "assets/prompts/relic-chain_abacus.txt"
+  },
+  {
+    "id": "war_banner",
+    "kind": "relic",
+    "source": "assets/generated/relic/war_banner.png",
+    "runtime": "assets/cards/relic/war_banner.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 122116,
+    "sha256": "71ec6e3c7e98869b27a66435ca3bd7357fddfd9629c2b8b692efcc2fb05a79c4",
+    "prompt": "assets/prompts/relic-war_banner.txt"
+  },
+  {
+    "id": "treasure_frog",
+    "kind": "relic",
+    "source": "assets/generated/relic/treasure_frog.png",
+    "runtime": "assets/cards/relic/treasure_frog.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 120870,
+    "sha256": "3548e2eed5c1c87ff5161bd22eb7a7d9303c0baa2418e48bd518bc834ee8bd58",
+    "prompt": "assets/prompts/relic-treasure_frog.txt"
+  },
+  {
+    "id": "training_weights",
+    "kind": "relic",
+    "source": "assets/generated/relic/training_weights.png",
+    "runtime": "assets/cards/relic/training_weights.webp",
+    "size": [
+      512,
+      768
+    ],
+    "bytes": 99334,
+    "sha256": "cb7a8cfee5fdd98543021bd77a546d68856bf015b3209b0950f9ded9ecfbf748",
+    "prompt": "assets/prompts/relic-training_weights.txt"
+  }
+]

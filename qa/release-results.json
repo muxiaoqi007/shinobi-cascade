@@ -1,0 +1,16 @@
+{
+  "cards": 91,
+  "ninjas": 55,
+  "relics": 36,
+  "independent_generated_sources": 91,
+  "old_assets_in_release": 0,
+  "external_requests": 0,
+  "html_bytes": 13448234,
+  "html_sha256": "6b9b04c97c471c8a934202c017d618c8f8a15bbe430ba208ef691a0d4472c144",
+  "browser_checks": [
+    "Natural first battle won; damage preview equals actual hit; particles and combo chips visible",
+    "Shop purchase, persisted currency and resume work",
+    "Touch emulation: tap select, redraw, inspect, chapter boon, shop advance, mobile codex",
+    "55 ninja + 36 relic gallery, 10 chapter map, full card detail, mobile card selection, offline loading, no console errors"
+  ]
+}

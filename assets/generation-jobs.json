@@ -1,0 +1,457 @@
+[
+  {
+    "kind": "ninja",
+    "id": "naruto",
+    "prompt": "Use case: stylized-concept. Generate ONE complete independent portrait game card illustration for SHINOBI CASCADE. Subject: Naruto Uzumaki, orange-black ninja outfit, blond spiky hair, blue eyes, whisker marks, summoning a luminous blue Rasengan. Rich detailed Japanese anime painted action illustration, holographic rainbow glints along a thin elegant silver border, deep navy background, cyan chakra spirals and orange embers. Portrait 2:3 composition. ONE card only fills the entire image, all four border edges fully visible with 4% safe margins. Character head, hair, both hands and energy sphere fully inside the frame, dynamic three-quarter body pose. NO grid, NO neighboring cards, NO collage, NO lettering, NO numbers, NO title or stats: the game renders text separately. Crisp beautiful collectible card art."
+  },
+  {
+    "kind": "ninja",
+    "id": "sasuke",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Sasuke Uchiha, black spiky hair, grey open collar shirt, purple rope belt, crackling blue Chidori in hand. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "sakura",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Sakura Haruno, short pink hair, red sleeveless tunic, black gloves, powerful glowing pink chakra punch. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "kakashi",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Kakashi Hatake, silver spiky hair, black face mask, tilted headband over left eye, green flak vest, blue lightning blade. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "yamato",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Yamato, short brown hair, metal forehead and cheek guard, green ninja vest, rising wood branches and jade chakra. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "sai",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Sai, short black hair, pale face, cropped black ninja top, holding an ink brush and unrolled scroll, ink tigers. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "shikamaru",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Shikamaru Nara, black ponytail, green ninja vest, hand forming a strategic seal, living shadows on ground. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "ino",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Ino Yamanaka, long blond ponytail, purple sleeveless ninja outfit, elegant mind-transfer hand gesture, violet chakra. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "choji",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Choji Akimichi, brown hair, spiral cheek marks, red armor and scarf, enlarged fist with butterfly chakra wings. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "asuma",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Asuma Sarutobi, short black hair and beard, green ninja vest, paired chakra blades and turquoise wind. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "hinata",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Hinata Hyuga, long dark blue hair, pale lavender eyes, lavender jacket, glowing blue twin lion fists. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "kiba",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Kiba Inuzuka, brown spiky hair, red fang cheek marks, grey fur-lined jacket, white dog Akamaru and spiraling wind. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "shino",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Shino Aburame, dark round sunglasses, hooded high-collared olive coat, swirling luminous beetles. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "kurenai",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Kurenai Yuhi, long black wavy hair, red eyes, red-white bandage-pattern outfit, illusion petals and red moon. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "gaara",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Gaara, short red hair, forehead love tattoo, dark red outfit, complete sand gourd on back, curling golden sand. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "temari",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Temari, blond hair in four short bunches, dark ninja dress, large fully visible opened fan with purple circles and wind. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "kankuro",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Kankuro, dark hooded ninja outfit, purple face paint, wooden puppet and blue chakra threads. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "jiraiya",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Jiraiya, long spiky white hair, red eye markings, red sleeveless coat over green robe, blue Rasengan and toad silhouette. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "tsunade",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Tsunade, long blond twin ponytails, violet diamond on forehead, green haori and grey blouse, glowing green healing chakra. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "orochimaru",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Orochimaru, long straight black hair, pale face, golden snake eyes, beige tunic and purple rope belt, white snakes and violet energy. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "itachi",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Itachi Uchiha, black hair framing face, red sharingan eyes, black red-cloud cloak, crows and crimson moon. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "kisame",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Kisame Hoshigaki, blue skin and shark-like facial features, dark blue spiky hair, red-cloud cloak, bandaged Samehada sword and blue waves. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "deidara",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Deidara, blond ponytail covering one eye, black red-cloud cloak, small white clay bird in palm, gold explosion clouds. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "pain",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Pain Tendo, orange spiky hair, facial piercings and concentric violet rinnegan eyes, black red-cloud cloak, gravitational rings. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "minato",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Minato Namikaze, blond spiky hair, green vest and white flame-hem cloak, three-pronged kunai and golden teleportation rings. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "guy",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Might Guy, black bowl haircut, thick eyebrows, green jumpsuit and flak jacket, orange leg warmers, emerald eight gates energy. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "lee",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Rock Lee, black bowl haircut, thick eyebrows, green jumpsuit and orange leg warmers, wrapped fists in martial arts stance. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "neji",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Neji Hyuga, long dark brown hair, pale byakugan eyes, white ninja tunic, precise palm strike with silver chakra circles. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "hashirama",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Hashirama Senju, long straight black hair, red samurai armor, huge wooden dragon and jade forest chakra. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "madara",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Madara Uchiha, long wild black hair, red samurai armor, red sharingan eyes, spectral blue Susanoo and red fire. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "obito",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Obito Uchiha, orange spiral mask with single eye hole, dark red-cloud cloak, swirling violet space-time vortex. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "tenten",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Tenten, brown hair in two buns, Chinese-style sleeveless ninja tunic, deploying a scroll with suspended kunai, crimson gold light. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "tobirama",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Tobirama Senju, white spiky hair, red facial markings, blue armor with white fur collar, forming water dragon, icy blue silver. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "hiruzen",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Hiruzen Sarutobi, elderly ninja in dark battle armor and helmet, wielding black and gold long staff, fiery amber wind. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "kushina",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Kushina Uzumaki, long bright red hair, green dress, golden chakra chains coiling around both hands, ocean blue and gold. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "konan",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Konan, short blue hair with paper flower, black red-cloud cloak, white origami wings unfurling, pale violet rain. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "sasori",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Sasori, short red hair, black red-cloud cloak, graceful puppet master with blue chakra threads and wooden puppet arms, amber teal. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "hidan",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Hidan, slicked back silver hair, open black red-cloud cloak, triple bladed red scythe fully framed, dark crimson ritual aura, no gore. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "kakuzu",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Kakuzu, hood and lower face mask, green eyes, black red-cloud cloak, floating elemental masks and black threads, emerald orange energy. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "zabuza",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Zabuza Momochi, black spiky hair, bandaged lower face, large executioner sword entirely inside frame, blue mist and water. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "haku",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Haku, beautiful androgynous ninja with long black hair tied up, pale green robe, holding white hunter mask, floating ice mirrors and snow. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "mei",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Mei Terumi, flowing auburn hair covering one eye, blue off-shoulder dress, swirling lava and turquoise vapor, elegant powerful pose. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "ay",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Fourth Raikage A, muscular dark-skinned blond man with mustache, white cloak and golden forearm guards, blue lightning armor, full fists visible. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "bee",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Killer Bee, dark-skinned white-haired ninja with sunglasses, white scarf and red rope, acrobatic sword pose with octopus chakra silhouettes, violet gold. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "ohnoki",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Onoki, tiny elderly bald ninja with white moustache and large red nose, levitating with glowing translucent dust-release cube between hands, rocky sky. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "darui",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Darui, dark-skinned ninja with shaggy white hair over one eye, grey flak jacket, broad sword, black panther lightning and blue laser beams. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "shisui",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Shisui Uchiha, short dark hair, forehead protector and dark high-collared ninja uniform, green spectral warrior aura, red sharingan eyes. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "kabuto",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Kabuto Yakushi, silver hair tied back, round glasses, purple high-collared ninja outfit, teal chakra scalpel hands and white snake, mysterious laboratory. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "kimimaro",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Kimimaro, long white hair center part, two red forehead dots, pale tunic and purple rope belt, elegant ivory bone spear, moonlit violet field, no gore. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "suigetsu",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Suigetsu Hozuki, short white hair, purple eyes, sleeveless lavender shirt, huge sword with circular hole, liquid water body and wave splashes. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "karin",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Karin Uzumaki, long red hair, red glasses, lavender ninja shirt, sensing chakra with luminous red gold chains, calm violet backdrop. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "jugo",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Jugo, orange spiky hair, gray cloak, one massive rocky transformed arm, orange natural energy and birds, forest rubble, no gore. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "rin",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Rin Nohara, short brown hair and purple rectangular cheek markings, dark ninja tunic and forehead protector, glowing green healing hands, soft blue water. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "nagato",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Nagato Uzumaki, long red hair and concentric purple rinnegan eyes, dark high-collared cloak, gravitational rings and floating stone spheres, violet red glow. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "ninja",
+    "id": "kaguya",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Kaguya Otsutsuki, ethereal pale woman with very long white hair, two horns, third red forehead eye, flowing white patterned robes, lunar dimensional portals, pearl violet gold. Dynamic three-quarter body action composition, coherent anatomy."
+  },
+  {
+    "kind": "relic",
+    "id": "shadow_scroll",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete ancient open golden scroll releasing luminous ninja shadow silhouettes. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "chakra_thread",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: An intricate complete crystalline loom of blue chakra threads, luminous silk spool. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "medical_seal",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete jade diamond healing seal, green energy blooming like a lotus. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "sharingan",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A crimson sharingan eye jewel with three black tomoe inset in a complete obsidian amulet. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "sage_mode",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete golden toad sage talisman with orange eye motifs and leaf spirals. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "curse_mark",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: An entire dark violet stone amulet bearing a three-point black curse mark, purple flames. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "eight_gates",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Eight complete glowing chakra gates arranged vertically around a bronze human-energy statue. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "jinchuriki_core",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete fiery red tailed beast chakra sphere within golden sealing rings. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "flying_raijin",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete three-pronged kunai resting above golden teleportation rings and parchment seals. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "rinnegan",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete violet concentric-ring eye jewel levitating above an obsidian pedestal. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "edo_tensei",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete summoning scroll encircled by tiny closed stone coffins and teal spirit fire. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "wood_domain",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete miniature ancient tree realm growing from a jade stone talisman. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "akatsuki_ring",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete silver ninja ring with crimson stone and red cloud energy. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "team_tactics",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete open tactical scroll with four small ninja figures linked by luminous geometric paths. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "element_prism",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete floating prismatic crystal with five elemental streams fire water earth lightning wind. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "destiny_knot",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete intricate golden infinity knot tying red and blue silk ribbons together. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "limit_break",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete fractured blue chakra crystal with an infinity-shaped energy loop. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "combo_engine",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete intricate golden mechanical chakra gyroscope with nested prismatic rings. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "ice_mirror",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A ring of complete floating crystalline ice mirrors reflecting snowflakes, cyan silver. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "puppet_core",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A lacquered wooden puppet heart with blue chakra threads and articulated brass joints, red teal. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "paper_wings",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: White origami angel wings circling a paper rose, silver lavender. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "sword_archive",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A scroll holding seven distinct legendary ninja swords floating as tiny artifacts, steel blue. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "crimson_chain",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Complete loop of golden chakra chains sealing a red crystal, gold crimson. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "storm_drum",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A floating circular thunder drum with azure lightning and rain currents, cyan purple. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "hokage_cloak",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: An empty white ceremonial Hokage cloak with red flame hem floating above a stone pedestal, amber. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "moon_mirror",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Complete black lacquer ritual mirror with red moon and concentric ripples, crimson black. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "dust_cube",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete translucent geometric cube surrounding a radiant white core, gold prismatic. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "sage_contract",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: An open summoning contract scroll with three miniature animal spirit silhouettes toad snake slug, jade gold. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "duet_bell",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Two complete small bronze training bells tied with red silk, deep teal amber. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "solo_kunai",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: One entire three-pronged kunai with black wrapped handle and luminous gold seal, midnight silver. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "echo_seal",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Two complete nested jade seal rings creating repeating sound waves, emerald violet. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "last_flame",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: An undying orange flame held in a complete bronze lantern, dark blue embers. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "chain_abacus",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A complete ornate ninja abacus with glowing prismatic beads and chakra lines, gold teal. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "war_banner",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: Five complete miniature battle banners arranged around a central glowing alliance crest, silver red. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "treasure_frog",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A whimsical green frog-shaped coin purse spilling golden coins, jade amber. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  },
+  {
+    "kind": "relic",
+    "id": "training_weights",
+    "prompt": "Use case: stylized-concept. ONE independent complete portrait collectible card illustration for SHINOBI CASCADE. Rich finely detailed Japanese anime fantasy painting. Deep navy atmospheric background, holographic rainbow glints along a thin elegant silver frame, premium collectible finish. Portrait 2:3. ONE card fills image, all four border edges fully visible, 5% safe margins. Keep head, hair, hands, main weapon and magical effect inside frame. No neighboring card, no grid, no collage, no lettering, no numbers, no title, no stats. The game renders readable text separately. Subject: A pair of complete worn orange ninja ankle weights with green cloth ties and golden energy, forest green. An enchanted artifact still life, centered whole object completely visible with breathing room, no human portrait."
+  }
+]

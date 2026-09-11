@@ -1,0 +1,2189 @@
+[
+  {
+    "seed": 1,
+    "build": "leaf",
+    "win": true,
+    "battles": 30,
+    "plays": 45,
+    "peak": 9007199254740991,
+    "relics": [
+      "eight_gates",
+      "war_banner",
+      "echo_seal",
+      "chain_abacus",
+      "combo_engine"
+    ],
+    "deck": 13,
+    "turns": [
+      {
+        "encounter": 1,
+        "damage": 126965970,
+        "target": 2800
+      },
+      {
+        "encounter": 2,
+        "damage": 357120836,
+        "target": 4200
+      },
+      {
+        "encounter": 3,
+        "damage": 3369165637,
+        "target": 6400
+      },
+      {
+        "encounter": 3,
+        "damage": 43232314,
+        "target": 11200
+      },
+      {
+        "encounter": 4,
+        "damage": 6023717875,
+        "target": 9600
+      },
+      {
+        "encounter": 5,
+        "damage": 4624590741,
+        "target": 14600
+      },
+      {
+        "encounter": 6,
+        "damage": 190645220,
+        "target": 22000
+      },
+      {
+        "encounter": 6,
+        "damage": 170224289,
+        "target": 38500
+      },
+      {
+        "encounter": 7,
+        "damage": 12245678277,
+        "target": 33200
+      },
+      {
+        "encounter": 8,
+        "damage": 6333982894,
+        "target": 50100
+      },
+      {
+        "encounter": 9,
+        "damage": 109921766517,
+        "target": 75700
+      },
+      {
+        "encounter": 9,
+        "damage": 2262111587,
+        "target": 132475
+      },
+      {
+        "encounter": 10,
+        "damage": 83647428984,
+        "target": 114300
+      },
+      {
+        "encounter": 11,
+        "damage": 39026277679,
+        "target": 172600
+      },
+      {
+        "encounter": 12,
+        "damage": 29448127005,
+        "target": 260600
+      },
+      {
+        "encounter": 12,
+        "damage": 111296199468,
+        "target": 456050
+      },
+      {
+        "encounter": 13,
+        "damage": 555620084414,
+        "target": 393400
+      },
+      {
+        "encounter": 14,
+        "damage": 106925283499,
+        "target": 594100
+      },
+      {
+        "encounter": 15,
+        "damage": 10862507584,
+        "target": 897100
+      },
+      {
+        "encounter": 15,
+        "damage": 57262902878,
+        "target": 1569925
+      },
+      {
+        "encounter": 16,
+        "damage": 28952870834,
+        "target": 1354600
+      },
+      {
+        "encounter": 17,
+        "damage": 179820747632,
+        "target": 2045500
+      },
+      {
+        "encounter": 18,
+        "damage": 2737442281922,
+        "target": 3088600
+      },
+      {
+        "encounter": 18,
+        "damage": 95788285939,
+        "target": 5405050
+      },
+      {
+        "encounter": 18,
+        "damage": 9139712926573,
+        "target": 9458838
+      },
+      {
+        "encounter": 19,
+        "damage": 12608831426,
+        "target": 4663800
+      },
+      {
+        "encounter": 20,
+        "damage": 14024685130546,
+        "target": 7042400
+      },
+      {
+        "encounter": 21,
+        "damage": 15726400971925,
+        "target": 10634000
+      },
+      {
+        "encounter": 21,
+        "damage": 121554741940,
+        "target": 18609500
+      },
+      {
+        "encounter": 21,
+        "damage": 2115898617238,
+        "target": 32566625
+      },
+      {
+        "encounter": 22,
+        "damage": 2387981404289,
+        "target": 16057400
+      },
+      {
+        "encounter": 23,
+        "damage": 52989000569617,
+        "target": 24246600
+      },
+      {
+        "encounter": 24,
+        "damage": 417576154234,
+        "target": 36612400
+      },
+      {
+        "encounter": 24,
+        "damage": 267220064008,
+        "target": 64071700
+      },
+      {
+        "encounter": 24,
+        "damage": 12335737467929,
+        "target": 112125475
+      },
+      {
+        "encounter": 25,
+        "damage": 1269284237453,
+        "target": 55284700
+      },
+      {
+        "encounter": 26,
+        "damage": 9007199254740991,
+        "target": 83479900
+      },
+      {
+        "encounter": 27,
+        "damage": 143789935782959,
+        "target": 126054600
+      },
+      {
+        "encounter": 27,
+        "damage": 475794150978234,
+        "target": 220595550
+      },
+      {
+        "encounter": 27,
+        "damage": 38535652991897,
+        "target": 386042213
+      },
+      {
+        "encounter": 28,
+        "damage": 55119504078724,
+        "target": 190342400
+      },
+      {
+        "encounter": 29,
+        "damage": 195626948826608,
+        "target": 287417100
+      },
+      {
+        "encounter": 30,
+        "damage": 274103676609523,
+        "target": 433999800
+      },
+      {
+        "encounter": 30,
+        "damage": 1121590374387,
+        "target": 759499650
+      },
+      {
+        "encounter": 30,
+        "damage": 23083875516109,
+        "target": 1329124388
+      }
+    ]
+  },
+  {
+    "seed": 2,
+    "build": "leaf",
+    "win": true,
+    "battles": 30,
+    "plays": 45,
+    "peak": 9007199254740991,
+    "relics": [
+      "chain_abacus",
+      "element_prism",
+      "eight_gates",
+      "combo_engine",
+      "echo_seal"
+    ],
+    "deck": 15,
+    "turns": [
+      {
+        "encounter": 1,
+        "damage": 9903593,
+        "target": 2800
+      },
+      {
+        "encounter": 2,
+        "damage": 594069017,
+        "target": 4200
+      },
+      {
+        "encounter": 3,
+        "damage": 145770192,
+        "target": 6400
+      },
+      {
+        "encounter": 3,
+        "damage": 168499690,
+        "target": 11200
+      },
+      {
+        "encounter": 4,
+        "damage": 217932137,
+        "target": 9600
+      },
+      {
+        "encounter": 5,
+        "damage": 11230145448,
+        "target": 14600
+      },
+      {
+        "encounter": 6,
+        "damage": 172760376672,
+        "target": 22000
+      },
+      {
+        "encounter": 6,
+        "damage": 99785843926,
+        "target": 38500
+      },
+      {
+        "encounter": 7,
+        "damage": 6958433255035,
+        "target": 33200
+      },
+      {
+        "encounter": 8,
+        "damage": 216337305466,
+        "target": 50100
+      },
+      {
+        "encounter": 9,
+        "damage": 4706183798962,
+        "target": 75700
+      },
+      {
+        "encounter": 9,
+        "damage": 1111108276202,
+        "target": 132475
+      },
+      {
+        "encounter": 10,
+        "damage": 136135877731914,
+        "target": 114300
+      },
+      {
+        "encounter": 11,
+        "damage": 778965556065187,
+        "target": 172600
+      },
+      {
+        "encounter": 12,
+        "damage": 9703796480273,
+        "target": 260600
+      },
+      {
+        "encounter": 12,
+        "damage": 4592782806029,
+        "target": 456050
+      },
+      {
+        "encounter": 13,
+        "damage": 1122543390174454,
+        "target": 393400
+      },
+      {
+        "encounter": 14,
+        "damage": 4162820882088,
+        "target": 594100
+      },
+      {
+        "encounter": 15,
+        "damage": 5777569783435369,
+        "target": 897100
+      },
+      {
+        "encounter": 15,
+        "damage": 515677870663,
+        "target": 1569925
+      },
+      {
+        "encounter": 16,
+        "damage": 9007199254740991,
+        "target": 1354600
+      },
+      {
+        "encounter": 17,
+        "damage": 489001992471278,
+        "target": 2045500
+      },
+      {
+        "encounter": 18,
+        "damage": 9007199254740991,
+        "target": 3088600
+      },
+      {
+        "encounter": 18,
+        "damage": 80892747162437,
+        "target": 5405050
+      },
+      {
+        "encounter": 18,
+        "damage": 1182020251062209,
+        "target": 9458838
+      },
+      {
+        "encounter": 19,
+        "damage": 1269739451040,
+        "target": 4663800
+      },
+      {
+        "encounter": 20,
+        "damage": 148964210890395,
+        "target": 7042400
+      },
+      {
+        "encounter": 21,
+        "damage": 9007199254740991,
+        "target": 10634000
+      },
+      {
+        "encounter": 21,
+        "damage": 18343203967009,
+        "target": 18609500
+      },
+      {
+        "encounter": 21,
+        "damage": 9007199254740991,
+        "target": 32566625
+      },
+      {
+        "encounter": 22,
+        "damage": 3272708041395867,
+        "target": 16057400
+      },
+      {
+        "encounter": 23,
+        "damage": 2474850827067059,
+        "target": 24246600
+      },
+      {
+        "encounter": 24,
+        "damage": 4597855524321,
+        "target": 36612400
+      },
+      {
+        "encounter": 24,
+        "damage": 9007199254740991,
+        "target": 64071700
+      },
+      {
+        "encounter": 24,
+        "damage": 425722856046211,
+        "target": 112125475
+      },
+      {
+        "encounter": 25,
+        "damage": 9007199254740991,
+        "target": 55284700
+      },
+      {
+        "encounter": 26,
+        "damage": 25734738374811,
+        "target": 83479900
+      },
+      {
+        "encounter": 27,
+        "damage": 50597180136068,
+        "target": 126054600
+      },
+      {
+        "encounter": 27,
+        "damage": 118919987656,
+        "target": 220595550
+      },
+      {
+        "encounter": 27,
+        "damage": 46954112249132,
+        "target": 386042213
+      },
+      {
+        "encounter": 28,
+        "damage": 414116227796902,
+        "target": 190342400
+      },
+      {
+        "encounter": 29,
+        "damage": 2690138855318,
+        "target": 287417100
+      },
+      {
+        "encounter": 30,
+        "damage": 2722783881329767,
+        "target": 433999800
+      },
+      {
+        "encounter": 30,
+        "damage": 4735303040344189,
+        "target": 759499650
+      },
+      {
+        "encounter": 30,
+        "damage": 11682548500773,
+        "target": 1329124388
+      }
+    ]
+  },
+  {
+    "seed": 3,
+    "build": "leaf",
+    "win": true,
+    "battles": 30,
+    "plays": 45,
+    "peak": 9007199254740991,
+    "relics": [
+      "element_prism",
+      "war_banner",
+      "eight_gates",
+      "rinnegan",
+      "combo_engine"
+    ],
+    "deck": 14,
+    "turns": [
+      {
+        "encounter": 1,
+        "damage": 4732649,
+        "target": 2800
+      },
+      {
+        "encounter": 2,
+        "damage": 23712564,
+        "target": 4200
+      },
+      {
+        "encounter": 3,
+        "damage": 347590334,
+        "target": 6400
+      },
+      {
+        "encounter": 3,
+        "damage": 6042737,
+        "target": 11200
+      },
+      {
+        "encounter": 4,
+        "damage": 19965357,
+        "target": 9600
+      },
+      {
+        "encounter": 5,
+        "damage": 189417150426,
+        "target": 14600
+      },
+      {
+        "encounter": 6,
+        "damage": 12100855583,
+        "target": 22000
+      },
+      {
+        "encounter": 6,
+        "damage": 1456499717,
+        "target": 38500
+      },
+      {
+        "encounter": 7,
+        "damage": 165858167662,
+        "target": 33200
+      },
+      {
+        "encounter": 8,
+        "damage": 112153298937,
+        "target": 50100
+      },
+      {
+        "encounter": 9,
+        "damage": 2162903114,
+        "target": 75700
+      },
+      {
+        "encounter": 9,
+        "damage": 157830067876,
+        "target": 132475
+      },
+      {
+        "encounter": 10,
+        "damage": 2018846664915,
+        "target": 114300
+      },
+      {
+        "encounter": 11,
+        "damage": 210218201837,
+        "target": 172600
+      },
+      {
+        "encounter": 12,
+        "damage": 6941197691139,
+        "target": 260600
+      },
+      {
+        "encounter": 12,
+        "damage": 80070707712,
+        "target": 456050
+      },
+      {
+        "encounter": 13,
+        "damage": 3031230496029,
+        "target": 393400
+      },
+      {
+        "encounter": 14,
+        "damage": 393911042257,
+        "target": 594100
+      },
+      {
+        "encounter": 15,
+        "damage": 8486066768,
+        "target": 897100
+      },
+      {
+        "encounter": 15,
+        "damage": 1067790739604,
+        "target": 1569925
+      },
+      {
+        "encounter": 16,
+        "damage": 53285606319297,
+        "target": 1354600
+      },
+      {
+        "encounter": 17,
+        "damage": 6164175293349,
+        "target": 2045500
+      },
+      {
+        "encounter": 18,
+        "damage": 50422530047462,
+        "target": 3088600
+      },
+      {
+        "encounter": 18,
+        "damage": 33200280106903,
+        "target": 5405050
+      },
+      {
+        "encounter": 18,
+        "damage": 5522797537987,
+        "target": 9458838
+      },
+      {
+        "encounter": 19,
+        "damage": 2381805717692895,
+        "target": 4663800
+      },
+      {
+        "encounter": 20,
+        "damage": 28594055658018,
+        "target": 7042400
+      },
+      {
+        "encounter": 21,
+        "damage": 119300886129762,
+        "target": 10634000
+      },
+      {
+        "encounter": 21,
+        "damage": 9007199254740991,
+        "target": 18609500
+      },
+      {
+        "encounter": 21,
+        "damage": 15785385270515,
+        "target": 32566625
+      },
+      {
+        "encounter": 22,
+        "damage": 3939105551767137,
+        "target": 16057400
+      },
+      {
+        "encounter": 23,
+        "damage": 1708901290791179,
+        "target": 24246600
+      },
+      {
+        "encounter": 24,
+        "damage": 9007199254740991,
+        "target": 36612400
+      },
+      {
+        "encounter": 24,
+        "damage": 853059879465610,
+        "target": 64071700
+      },
+      {
+        "encounter": 24,
+        "damage": 751116437190837,
+        "target": 112125475
+      },
+      {
+        "encounter": 25,
+        "damage": 803148228607744,
+        "target": 55284700
+      },
+      {
+        "encounter": 26,
+        "damage": 2350690192554371,
+        "target": 83479900
+      },
+      {
+        "encounter": 27,
+        "damage": 4335354335247316,
+        "target": 126054600
+      },
+      {
+        "encounter": 27,
+        "damage": 6937057036921405,
+        "target": 220595550
+      },
+      {
+        "encounter": 27,
+        "damage": 9007199254740991,
+        "target": 386042213
+      },
+      {
+        "encounter": 28,
+        "damage": 9007199254740991,
+        "target": 190342400
+      },
+      {
+        "encounter": 29,
+        "damage": 9007199254740991,
+        "target": 287417100
+      },
+      {
+        "encounter": 30,
+        "damage": 9007199254740991,
+        "target": 433999800
+      },
+      {
+        "encounter": 30,
+        "damage": 496800771396375,
+        "target": 759499650
+      },
+      {
+        "encounter": 30,
+        "damage": 1565876666618586,
+        "target": 1329124388
+      }
+    ]
+  },
+  {
+    "seed": 1,
+    "build": "storm",
+    "win": true,
+    "battles": 30,
+    "plays": 45,
+    "peak": 692939238752645,
+    "relics": [
+      "sage_mode",
+      "chain_abacus",
+      "eight_gates",
+      "war_banner",
+      "echo_seal"
+    ],
+    "deck": 14,
+    "turns": [
+      {
+        "encounter": 1,
+        "damage": 4848792,
+        "target": 2800
+      },
+      {
+        "encounter": 2,
+        "damage": 6590128,
+        "target": 4200
+      },
+      {
+        "encounter": 3,
+        "damage": 31256625,
+        "target": 6400
+      },
+      {
+        "encounter": 3,
+        "damage": 14922503,
+        "target": 11200
+      },
+      {
+        "encounter": 4,
+        "damage": 323751346,
+        "target": 9600
+      },
+      {
+        "encounter": 5,
+        "damage": 408313598,
+        "target": 14600
+      },
+      {
+        "encounter": 6,
+        "damage": 18987294,
+        "target": 22000
+      },
+      {
+        "encounter": 6,
+        "damage": 20450757,
+        "target": 38500
+      },
+      {
+        "encounter": 7,
+        "damage": 749674033,
+        "target": 33200
+      },
+      {
+        "encounter": 8,
+        "damage": 2345769395,
+        "target": 50100
+      },
+      {
+        "encounter": 9,
+        "damage": 15166596956,
+        "target": 75700
+      },
+      {
+        "encounter": 9,
+        "damage": 2129518184,
+        "target": 132475
+      },
+      {
+        "encounter": 10,
+        "damage": 12085780728,
+        "target": 114300
+      },
+      {
+        "encounter": 11,
+        "damage": 30884727584,
+        "target": 172600
+      },
+      {
+        "encounter": 12,
+        "damage": 3307566562,
+        "target": 260600
+      },
+      {
+        "encounter": 12,
+        "damage": 400912414,
+        "target": 456050
+      },
+      {
+        "encounter": 13,
+        "damage": 13903390774,
+        "target": 393400
+      },
+      {
+        "encounter": 14,
+        "damage": 714870594,
+        "target": 594100
+      },
+      {
+        "encounter": 15,
+        "damage": 160011653884,
+        "target": 897100
+      },
+      {
+        "encounter": 15,
+        "damage": 4770547277,
+        "target": 1569925
+      },
+      {
+        "encounter": 16,
+        "damage": 68463203361,
+        "target": 1354600
+      },
+      {
+        "encounter": 17,
+        "damage": 2180916734,
+        "target": 2045500
+      },
+      {
+        "encounter": 18,
+        "damage": 125286964017,
+        "target": 3088600
+      },
+      {
+        "encounter": 18,
+        "damage": 11126998155,
+        "target": 5405050
+      },
+      {
+        "encounter": 18,
+        "damage": 71460242404,
+        "target": 9458838
+      },
+      {
+        "encounter": 19,
+        "damage": 115189782125,
+        "target": 4663800
+      },
+      {
+        "encounter": 20,
+        "damage": 54094840469,
+        "target": 7042400
+      },
+      {
+        "encounter": 21,
+        "damage": 139270718157,
+        "target": 10634000
+      },
+      {
+        "encounter": 21,
+        "damage": 43146676004,
+        "target": 18609500
+      },
+      {
+        "encounter": 21,
+        "damage": 13771626028,
+        "target": 32566625
+      },
+      {
+        "encounter": 22,
+        "damage": 2660244586572,
+        "target": 16057400
+      },
+      {
+        "encounter": 23,
+        "damage": 821010613519,
+        "target": 24246600
+      },
+      {
+        "encounter": 24,
+        "damage": 15022865768,
+        "target": 36612400
+      },
+      {
+        "encounter": 24,
+        "damage": 770454056681,
+        "target": 64071700
+      },
+      {
+        "encounter": 24,
+        "damage": 162879868180,
+        "target": 112125475
+      },
+      {
+        "encounter": 25,
+        "damage": 27823176250555,
+        "target": 55284700
+      },
+      {
+        "encounter": 26,
+        "damage": 457057813366,
+        "target": 83479900
+      },
+      {
+        "encounter": 27,
+        "damage": 80843672481,
+        "target": 126054600
+      },
+      {
+        "encounter": 27,
+        "damage": 1268841899125,
+        "target": 220595550
+      },
+      {
+        "encounter": 27,
+        "damage": 25918107908476,
+        "target": 386042213
+      },
+      {
+        "encounter": 28,
+        "damage": 18628862880427,
+        "target": 190342400
+      },
+      {
+        "encounter": 29,
+        "damage": 406586077914,
+        "target": 287417100
+      },
+      {
+        "encounter": 30,
+        "damage": 692939238752645,
+        "target": 433999800
+      },
+      {
+        "encounter": 30,
+        "damage": 102260519822,
+        "target": 759499650
+      },
+      {
+        "encounter": 30,
+        "damage": 1063103290823,
+        "target": 1329124388
+      }
+    ]
+  },
+  {
+    "seed": 2,
+    "build": "storm",
+    "win": true,
+    "battles": 30,
+    "plays": 45,
+    "peak": 9007199254740991,
+    "relics": [
+      "element_prism",
+      "chain_abacus",
+      "eight_gates",
+      "echo_seal",
+      "rinnegan"
+    ],
+    "deck": 13,
+    "turns": [
+      {
+        "encounter": 1,
+        "damage": 5781523,
+        "target": 2800
+      },
+      {
+        "encounter": 2,
+        "damage": 7906816,
+        "target": 4200
+      },
+      {
+        "encounter": 3,
+        "damage": 19828956,
+        "target": 6400
+      },
+      {
+        "encounter": 3,
+        "damage": 14239455,
+        "target": 11200
+      },
+      {
+        "encounter": 4,
+        "damage": 33319551,
+        "target": 9600
+      },
+      {
+        "encounter": 5,
+        "damage": 10532884,
+        "target": 14600
+      },
+      {
+        "encounter": 6,
+        "damage": 5550771,
+        "target": 22000
+      },
+      {
+        "encounter": 6,
+        "damage": 54899285,
+        "target": 38500
+      },
+      {
+        "encounter": 7,
+        "damage": 71522582892,
+        "target": 33200
+      },
+      {
+        "encounter": 8,
+        "damage": 42565819777,
+        "target": 50100
+      },
+      {
+        "encounter": 9,
+        "damage": 241620944092,
+        "target": 75700
+      },
+      {
+        "encounter": 9,
+        "damage": 66121804489,
+        "target": 132475
+      },
+      {
+        "encounter": 10,
+        "damage": 633617001135,
+        "target": 114300
+      },
+      {
+        "encounter": 11,
+        "damage": 255812613434,
+        "target": 172600
+      },
+      {
+        "encounter": 12,
+        "damage": 101984777853,
+        "target": 260600
+      },
+      {
+        "encounter": 12,
+        "damage": 1410115976,
+        "target": 456050
+      },
+      {
+        "encounter": 13,
+        "damage": 25537437978,
+        "target": 393400
+      },
+      {
+        "encounter": 14,
+        "damage": 51365630484,
+        "target": 594100
+      },
+      {
+        "encounter": 15,
+        "damage": 655123521219,
+        "target": 897100
+      },
+      {
+        "encounter": 15,
+        "damage": 57805513557,
+        "target": 1569925
+      },
+      {
+        "encounter": 16,
+        "damage": 1123060118385,
+        "target": 1354600
+      },
+      {
+        "encounter": 17,
+        "damage": 602256060304,
+        "target": 2045500
+      },
+      {
+        "encounter": 18,
+        "damage": 27493099095,
+        "target": 3088600
+      },
+      {
+        "encounter": 18,
+        "damage": 16288927426153,
+        "target": 5405050
+      },
+      {
+        "encounter": 18,
+        "damage": 508786016882,
+        "target": 9458838
+      },
+      {
+        "encounter": 19,
+        "damage": 478769535129,
+        "target": 4663800
+      },
+      {
+        "encounter": 20,
+        "damage": 2165872575281,
+        "target": 7042400
+      },
+      {
+        "encounter": 21,
+        "damage": 2158829270337,
+        "target": 10634000
+      },
+      {
+        "encounter": 21,
+        "damage": 14718415822664,
+        "target": 18609500
+      },
+      {
+        "encounter": 21,
+        "damage": 4476236511550,
+        "target": 32566625
+      },
+      {
+        "encounter": 22,
+        "damage": 38492424146,
+        "target": 16057400
+      },
+      {
+        "encounter": 23,
+        "damage": 13878470529274,
+        "target": 24246600
+      },
+      {
+        "encounter": 24,
+        "damage": 1966426178265,
+        "target": 36612400
+      },
+      {
+        "encounter": 24,
+        "damage": 7143998411296,
+        "target": 64071700
+      },
+      {
+        "encounter": 24,
+        "damage": 989772904063518,
+        "target": 112125475
+      },
+      {
+        "encounter": 25,
+        "damage": 1311374659628123,
+        "target": 55284700
+      },
+      {
+        "encounter": 26,
+        "damage": 10705436182356,
+        "target": 83479900
+      },
+      {
+        "encounter": 27,
+        "damage": 30164711181632,
+        "target": 126054600
+      },
+      {
+        "encounter": 27,
+        "damage": 91264881870463,
+        "target": 220595550
+      },
+      {
+        "encounter": 27,
+        "damage": 9007199254740991,
+        "target": 386042213
+      },
+      {
+        "encounter": 28,
+        "damage": 84326911223793,
+        "target": 190342400
+      },
+      {
+        "encounter": 29,
+        "damage": 56880967826712,
+        "target": 287417100
+      },
+      {
+        "encounter": 30,
+        "damage": 9007199254740991,
+        "target": 433999800
+      },
+      {
+        "encounter": 30,
+        "damage": 229955648741880,
+        "target": 759499650
+      },
+      {
+        "encounter": 30,
+        "damage": 511540979991702,
+        "target": 1329124388
+      }
+    ]
+  },
+  {
+    "seed": 3,
+    "build": "storm",
+    "win": true,
+    "battles": 30,
+    "plays": 45,
+    "peak": 9007199254740991,
+    "relics": [
+      "eight_gates",
+      "sage_mode",
+      "element_prism",
+      "chain_abacus",
+      "rinnegan"
+    ],
+    "deck": 13,
+    "turns": [
+      {
+        "encounter": 1,
+        "damage": 14287693,
+        "target": 2800
+      },
+      {
+        "encounter": 2,
+        "damage": 4095361,
+        "target": 4200
+      },
+      {
+        "encounter": 3,
+        "damage": 9980991,
+        "target": 6400
+      },
+      {
+        "encounter": 3,
+        "damage": 8349964,
+        "target": 11200
+      },
+      {
+        "encounter": 4,
+        "damage": 42881984,
+        "target": 9600
+      },
+      {
+        "encounter": 5,
+        "damage": 39788444,
+        "target": 14600
+      },
+      {
+        "encounter": 6,
+        "damage": 3537564,
+        "target": 22000
+      },
+      {
+        "encounter": 6,
+        "damage": 6965804,
+        "target": 38500
+      },
+      {
+        "encounter": 7,
+        "damage": 75417773,
+        "target": 33200
+      },
+      {
+        "encounter": 8,
+        "damage": 181747678,
+        "target": 50100
+      },
+      {
+        "encounter": 9,
+        "damage": 89575895,
+        "target": 75700
+      },
+      {
+        "encounter": 9,
+        "damage": 715451179,
+        "target": 132475
+      },
+      {
+        "encounter": 10,
+        "damage": 6337557504,
+        "target": 114300
+      },
+      {
+        "encounter": 11,
+        "damage": 491172905,
+        "target": 172600
+      },
+      {
+        "encounter": 12,
+        "damage": 2743890145,
+        "target": 260600
+      },
+      {
+        "encounter": 12,
+        "damage": 843647101,
+        "target": 456050
+      },
+      {
+        "encounter": 13,
+        "damage": 233398265981,
+        "target": 393400
+      },
+      {
+        "encounter": 14,
+        "damage": 276592064864,
+        "target": 594100
+      },
+      {
+        "encounter": 15,
+        "damage": 1417496639840,
+        "target": 897100
+      },
+      {
+        "encounter": 15,
+        "damage": 1650792744,
+        "target": 1569925
+      },
+      {
+        "encounter": 16,
+        "damage": 5871382013791,
+        "target": 1354600
+      },
+      {
+        "encounter": 17,
+        "damage": 734957755523,
+        "target": 2045500
+      },
+      {
+        "encounter": 18,
+        "damage": 150472457427,
+        "target": 3088600
+      },
+      {
+        "encounter": 18,
+        "damage": 44144814364,
+        "target": 5405050
+      },
+      {
+        "encounter": 18,
+        "damage": 575890710032,
+        "target": 9458838
+      },
+      {
+        "encounter": 19,
+        "damage": 2339651776421,
+        "target": 4663800
+      },
+      {
+        "encounter": 20,
+        "damage": 13970704078917,
+        "target": 7042400
+      },
+      {
+        "encounter": 21,
+        "damage": 4997200734427,
+        "target": 10634000
+      },
+      {
+        "encounter": 21,
+        "damage": 1817239954113,
+        "target": 18609500
+      },
+      {
+        "encounter": 21,
+        "damage": 560019447814,
+        "target": 32566625
+      },
+      {
+        "encounter": 22,
+        "damage": 21775363864541,
+        "target": 16057400
+      },
+      {
+        "encounter": 23,
+        "damage": 6281427315086,
+        "target": 24246600
+      },
+      {
+        "encounter": 24,
+        "damage": 1735715451423931,
+        "target": 36612400
+      },
+      {
+        "encounter": 24,
+        "damage": 6111331422451,
+        "target": 64071700
+      },
+      {
+        "encounter": 24,
+        "damage": 1774620134906318,
+        "target": 112125475
+      },
+      {
+        "encounter": 25,
+        "damage": 2174739627700463,
+        "target": 55284700
+      },
+      {
+        "encounter": 26,
+        "damage": 224209378005221,
+        "target": 83479900
+      },
+      {
+        "encounter": 27,
+        "damage": 393842706101579,
+        "target": 126054600
+      },
+      {
+        "encounter": 27,
+        "damage": 123905116870152,
+        "target": 220595550
+      },
+      {
+        "encounter": 27,
+        "damage": 554950953714435,
+        "target": 386042213
+      },
+      {
+        "encounter": 28,
+        "damage": 7430376602600010,
+        "target": 190342400
+      },
+      {
+        "encounter": 29,
+        "damage": 9007199254740991,
+        "target": 287417100
+      },
+      {
+        "encounter": 30,
+        "damage": 146861148963886,
+        "target": 433999800
+      },
+      {
+        "encounter": 30,
+        "damage": 130794439477849,
+        "target": 759499650
+      },
+      {
+        "encounter": 30,
+        "damage": 8878373880501671,
+        "target": 1329124388
+      }
+    ]
+  },
+  {
+    "seed": 1,
+    "build": "dawn",
+    "win": true,
+    "battles": 30,
+    "plays": 45,
+    "peak": 9007199254740991,
+    "relics": [
+      "eight_gates",
+      "combo_engine",
+      "chain_abacus",
+      "rinnegan",
+      "echo_seal"
+    ],
+    "deck": 11,
+    "turns": [
+      {
+        "encounter": 1,
+        "damage": 13173039,
+        "target": 2800
+      },
+      {
+        "encounter": 2,
+        "damage": 40097386,
+        "target": 4200
+      },
+      {
+        "encounter": 3,
+        "damage": 247960760,
+        "target": 6400
+      },
+      {
+        "encounter": 3,
+        "damage": 41725259,
+        "target": 11200
+      },
+      {
+        "encounter": 4,
+        "damage": 34996689,
+        "target": 9600
+      },
+      {
+        "encounter": 5,
+        "damage": 1547315659,
+        "target": 14600
+      },
+      {
+        "encounter": 6,
+        "damage": 11927678,
+        "target": 22000
+      },
+      {
+        "encounter": 6,
+        "damage": 18998099,
+        "target": 38500
+      },
+      {
+        "encounter": 7,
+        "damage": 5090747791,
+        "target": 33200
+      },
+      {
+        "encounter": 8,
+        "damage": 23227573822,
+        "target": 50100
+      },
+      {
+        "encounter": 9,
+        "damage": 7140634502,
+        "target": 75700
+      },
+      {
+        "encounter": 9,
+        "damage": 35615654788,
+        "target": 132475
+      },
+      {
+        "encounter": 10,
+        "damage": 38407229358,
+        "target": 114300
+      },
+      {
+        "encounter": 11,
+        "damage": 42195034886,
+        "target": 172600
+      },
+      {
+        "encounter": 12,
+        "damage": 5940820914,
+        "target": 260600
+      },
+      {
+        "encounter": 12,
+        "damage": 22349984140,
+        "target": 456050
+      },
+      {
+        "encounter": 13,
+        "damage": 53028220246,
+        "target": 393400
+      },
+      {
+        "encounter": 14,
+        "damage": 217198876784,
+        "target": 594100
+      },
+      {
+        "encounter": 15,
+        "damage": 3240940959359,
+        "target": 897100
+      },
+      {
+        "encounter": 15,
+        "damage": 7095368353,
+        "target": 1569925
+      },
+      {
+        "encounter": 16,
+        "damage": 847780917719,
+        "target": 1354600
+      },
+      {
+        "encounter": 17,
+        "damage": 501148572758,
+        "target": 2045500
+      },
+      {
+        "encounter": 18,
+        "damage": 20143905476,
+        "target": 3088600
+      },
+      {
+        "encounter": 18,
+        "damage": 1323122268796,
+        "target": 5405050
+      },
+      {
+        "encounter": 18,
+        "damage": 5295271194,
+        "target": 9458838
+      },
+      {
+        "encounter": 19,
+        "damage": 229789842626,
+        "target": 4663800
+      },
+      {
+        "encounter": 20,
+        "damage": 843639775709,
+        "target": 7042400
+      },
+      {
+        "encounter": 21,
+        "damage": 412881036235,
+        "target": 10634000
+      },
+      {
+        "encounter": 21,
+        "damage": 232223823000,
+        "target": 18609500
+      },
+      {
+        "encounter": 21,
+        "damage": 624108133622,
+        "target": 32566625
+      },
+      {
+        "encounter": 22,
+        "damage": 212289899670901,
+        "target": 16057400
+      },
+      {
+        "encounter": 23,
+        "damage": 295171015705989,
+        "target": 24246600
+      },
+      {
+        "encounter": 24,
+        "damage": 63332819481979,
+        "target": 36612400
+      },
+      {
+        "encounter": 24,
+        "damage": 192573423812404,
+        "target": 64071700
+      },
+      {
+        "encounter": 24,
+        "damage": 816596754690967,
+        "target": 112125475
+      },
+      {
+        "encounter": 25,
+        "damage": 9007199254740991,
+        "target": 55284700
+      },
+      {
+        "encounter": 26,
+        "damage": 1623319819273111,
+        "target": 83479900
+      },
+      {
+        "encounter": 27,
+        "damage": 9007199254740991,
+        "target": 126054600
+      },
+      {
+        "encounter": 27,
+        "damage": 9007199254740991,
+        "target": 220595550
+      },
+      {
+        "encounter": 27,
+        "damage": 24056665237970,
+        "target": 386042213
+      },
+      {
+        "encounter": 28,
+        "damage": 9007199254740991,
+        "target": 190342400
+      },
+      {
+        "encounter": 29,
+        "damage": 9007199254740991,
+        "target": 287417100
+      },
+      {
+        "encounter": 30,
+        "damage": 9007199254740991,
+        "target": 433999800
+      },
+      {
+        "encounter": 30,
+        "damage": 4776357784515833,
+        "target": 759499650
+      },
+      {
+        "encounter": 30,
+        "damage": 9007199254740991,
+        "target": 1329124388
+      }
+    ]
+  },
+  {
+    "seed": 2,
+    "build": "dawn",
+    "win": true,
+    "battles": 30,
+    "plays": 45,
+    "peak": 1330190539424,
+    "relics": [
+      "sage_mode",
+      "echo_seal",
+      "eight_gates",
+      "war_banner",
+      "shadow_scroll"
+    ],
+    "deck": 13,
+    "turns": [
+      {
+        "encounter": 1,
+        "damage": 11873752,
+        "target": 2800
+      },
+      {
+        "encounter": 2,
+        "damage": 16900270,
+        "target": 4200
+      },
+      {
+        "encounter": 3,
+        "damage": 55755685,
+        "target": 6400
+      },
+      {
+        "encounter": 3,
+        "damage": 19415804,
+        "target": 11200
+      },
+      {
+        "encounter": 4,
+        "damage": 297593915,
+        "target": 9600
+      },
+      {
+        "encounter": 5,
+        "damage": 199279348,
+        "target": 14600
+      },
+      {
+        "encounter": 6,
+        "damage": 71491313,
+        "target": 22000
+      },
+      {
+        "encounter": 6,
+        "damage": 76809942,
+        "target": 38500
+      },
+      {
+        "encounter": 7,
+        "damage": 199091378,
+        "target": 33200
+      },
+      {
+        "encounter": 8,
+        "damage": 515990855,
+        "target": 50100
+      },
+      {
+        "encounter": 9,
+        "damage": 302287205,
+        "target": 75700
+      },
+      {
+        "encounter": 9,
+        "damage": 106843918,
+        "target": 132475
+      },
+      {
+        "encounter": 10,
+        "damage": 2284852424,
+        "target": 114300
+      },
+      {
+        "encounter": 11,
+        "damage": 1217040406,
+        "target": 172600
+      },
+      {
+        "encounter": 12,
+        "damage": 695963409,
+        "target": 260600
+      },
+      {
+        "encounter": 12,
+        "damage": 580293745,
+        "target": 456050
+      },
+      {
+        "encounter": 13,
+        "damage": 4541861514,
+        "target": 393400
+      },
+      {
+        "encounter": 14,
+        "damage": 3594462651,
+        "target": 594100
+      },
+      {
+        "encounter": 15,
+        "damage": 8094137915,
+        "target": 897100
+      },
+      {
+        "encounter": 15,
+        "damage": 19277117655,
+        "target": 1569925
+      },
+      {
+        "encounter": 16,
+        "damage": 37227322716,
+        "target": 1354600
+      },
+      {
+        "encounter": 17,
+        "damage": 12533722314,
+        "target": 2045500
+      },
+      {
+        "encounter": 18,
+        "damage": 13640567216,
+        "target": 3088600
+      },
+      {
+        "encounter": 18,
+        "damage": 4527592355,
+        "target": 5405050
+      },
+      {
+        "encounter": 18,
+        "damage": 54898457102,
+        "target": 9458838
+      },
+      {
+        "encounter": 19,
+        "damage": 16528988484,
+        "target": 4663800
+      },
+      {
+        "encounter": 20,
+        "damage": 24204584965,
+        "target": 7042400
+      },
+      {
+        "encounter": 21,
+        "damage": 1041483767,
+        "target": 10634000
+      },
+      {
+        "encounter": 21,
+        "damage": 81205650603,
+        "target": 18609500
+      },
+      {
+        "encounter": 21,
+        "damage": 13030591205,
+        "target": 32566625
+      },
+      {
+        "encounter": 22,
+        "damage": 26215640781,
+        "target": 16057400
+      },
+      {
+        "encounter": 23,
+        "damage": 76933340880,
+        "target": 24246600
+      },
+      {
+        "encounter": 24,
+        "damage": 70393361518,
+        "target": 36612400
+      },
+      {
+        "encounter": 24,
+        "damage": 20086765648,
+        "target": 64071700
+      },
+      {
+        "encounter": 24,
+        "damage": 99580911546,
+        "target": 112125475
+      },
+      {
+        "encounter": 25,
+        "damage": 19579932210,
+        "target": 55284700
+      },
+      {
+        "encounter": 26,
+        "damage": 12282815740,
+        "target": 83479900
+      },
+      {
+        "encounter": 27,
+        "damage": 22750054358,
+        "target": 126054600
+      },
+      {
+        "encounter": 27,
+        "damage": 107074002382,
+        "target": 220595550
+      },
+      {
+        "encounter": 27,
+        "damage": 203979425777,
+        "target": 386042213
+      },
+      {
+        "encounter": 28,
+        "damage": 10265578873,
+        "target": 190342400
+      },
+      {
+        "encounter": 29,
+        "damage": 18148638412,
+        "target": 287417100
+      },
+      {
+        "encounter": 30,
+        "damage": 65509797962,
+        "target": 433999800
+      },
+      {
+        "encounter": 30,
+        "damage": 1330190539424,
+        "target": 759499650
+      },
+      {
+        "encounter": 30,
+        "damage": 55496815958,
+        "target": 1329124388
+      }
+    ]
+  },
+  {
+    "seed": 3,
+    "build": "dawn",
+    "win": true,
+    "battles": 30,
+    "plays": 45,
+    "peak": 4337723685856612,
+    "relics": [
+      "sage_mode",
+      "element_prism",
+      "eight_gates",
+      "chain_abacus",
+      "war_banner"
+    ],
+    "deck": 15,
+    "turns": [
+      {
+        "encounter": 1,
+        "damage": 11166538,
+        "target": 2800
+      },
+      {
+        "encounter": 2,
+        "damage": 680240,
+        "target": 4200
+      },
+      {
+        "encounter": 3,
+        "damage": 55938486,
+        "target": 6400
+      },
+      {
+        "encounter": 3,
+        "damage": 107431004,
+        "target": 11200
+      },
+      {
+        "encounter": 4,
+        "damage": 387622326,
+        "target": 9600
+      },
+      {
+        "encounter": 5,
+        "damage": 74654659792,
+        "target": 14600
+      },
+      {
+        "encounter": 6,
+        "damage": 705827941,
+        "target": 22000
+      },
+      {
+        "encounter": 6,
+        "damage": 20865191,
+        "target": 38500
+      },
+      {
+        "encounter": 7,
+        "damage": 73382878399,
+        "target": 33200
+      },
+      {
+        "encounter": 8,
+        "damage": 219492496620,
+        "target": 50100
+      },
+      {
+        "encounter": 9,
+        "damage": 391370493356,
+        "target": 75700
+      },
+      {
+        "encounter": 9,
+        "damage": 399916671890,
+        "target": 132475
+      },
+      {
+        "encounter": 10,
+        "damage": 1069410882890,
+        "target": 114300
+      },
+      {
+        "encounter": 11,
+        "damage": 922645067745,
+        "target": 172600
+      },
+      {
+        "encounter": 12,
+        "damage": 1408497675298,
+        "target": 260600
+      },
+      {
+        "encounter": 12,
+        "damage": 133039969730,
+        "target": 456050
+      },
+      {
+        "encounter": 13,
+        "damage": 18259625268393,
+        "target": 393400
+      },
+      {
+        "encounter": 14,
+        "damage": 409354778257,
+        "target": 594100
+      },
+      {
+        "encounter": 15,
+        "damage": 242673935425242,
+        "target": 897100
+      },
+      {
+        "encounter": 15,
+        "damage": 4069165595469,
+        "target": 1569925
+      },
+      {
+        "encounter": 16,
+        "damage": 1781947124930206,
+        "target": 1354600
+      },
+      {
+        "encounter": 17,
+        "damage": 533085606646,
+        "target": 2045500
+      },
+      {
+        "encounter": 18,
+        "damage": 2993813637883,
+        "target": 3088600
+      },
+      {
+        "encounter": 18,
+        "damage": 9139276186845,
+        "target": 5405050
+      },
+      {
+        "encounter": 18,
+        "damage": 2292072252055,
+        "target": 9458838
+      },
+      {
+        "encounter": 19,
+        "damage": 44446088041785,
+        "target": 4663800
+      },
+      {
+        "encounter": 20,
+        "damage": 5440825005364,
+        "target": 7042400
+      },
+      {
+        "encounter": 21,
+        "damage": 372707339829280,
+        "target": 10634000
+      },
+      {
+        "encounter": 21,
+        "damage": 1018077210685,
+        "target": 18609500
+      },
+      {
+        "encounter": 21,
+        "damage": 6735406304438,
+        "target": 32566625
+      },
+      {
+        "encounter": 22,
+        "damage": 4337723685856612,
+        "target": 16057400
+      },
+      {
+        "encounter": 23,
+        "damage": 14843499323132,
+        "target": 24246600
+      },
+      {
+        "encounter": 24,
+        "damage": 141006886015284,
+        "target": 36612400
+      },
+      {
+        "encounter": 24,
+        "damage": 8638253129936,
+        "target": 64071700
+      },
+      {
+        "encounter": 24,
+        "damage": 11425633363304,
+        "target": 112125475
+      },
+      {
+        "encounter": 25,
+        "damage": 15020237683024,
+        "target": 55284700
+      },
+      {
+        "encounter": 26,
+        "damage": 29182084096065,
+        "target": 83479900
+      },
+      {
+        "encounter": 27,
+        "damage": 104858429570209,
+        "target": 126054600
+      },
+      {
+        "encounter": 27,
+        "damage": 18358411648,
+        "target": 220595550
+      },
+      {
+        "encounter": 27,
+        "damage": 95020393678,
+        "target": 386042213
+      },
+      {
+        "encounter": 28,
+        "damage": 409908357896,
+        "target": 190342400
+      },
+      {
+        "encounter": 29,
+        "damage": 27355045760288,
+        "target": 287417100
+      },
+      {
+        "encounter": 30,
+        "damage": 432860565388,
+        "target": 433999800
+      },
+      {
+        "encounter": 30,
+        "damage": 79606621679263,
+        "target": 759499650
+      },
+      {
+        "encounter": 30,
+        "damage": 46394460077,
+        "target": 1329124388
+      }
+    ]
+  }
+]

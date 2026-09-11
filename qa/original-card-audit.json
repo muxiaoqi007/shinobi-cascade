@@ -1,0 +1,541 @@
+[
+  {
+    "id": "naruto",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/naruto.png"
+  },
+  {
+    "id": "kiba",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/kiba.png"
+  },
+  {
+    "id": "orochimaru",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "上沿混入相邻卡片的横边",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/orochimaru.png"
+  },
+  {
+    "id": "kisame",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/kisame.png"
+  },
+  {
+    "id": "obito",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "上沿有额外横边，主体与其他忍者比例不统一",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/obito.png"
+  },
+  {
+    "id": "jiraiya",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/jiraiya.png"
+  },
+  {
+    "id": "hinata",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/hinata.png"
+  },
+  {
+    "id": "sai",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "右侧边框和名称区被裁断",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/sai.png"
+  },
+  {
+    "id": "kakashi",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "上沿残留相邻卡片边框，主体比例过窄",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/kakashi.png"
+  },
+  {
+    "id": "gaara",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/gaara.png"
+  },
+  {
+    "id": "guy",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/guy.png"
+  },
+  {
+    "id": "choji",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "上沿有相邻卡片的边框残片",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/choji.png"
+  },
+  {
+    "id": "madara",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "右侧名称、数值与边框明显缺失",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/madara.png"
+  },
+  {
+    "id": "deidara",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/deidara.png"
+  },
+  {
+    "id": "temari",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/temari.png"
+  },
+  {
+    "id": "minato",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "上沿混入相邻卡片的横边",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/minato.png"
+  },
+  {
+    "id": "hashirama",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "左右主体边框和底部数值区存在裁切",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/hashirama.png"
+  },
+  {
+    "id": "pain",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "上沿有额外横边，主体与其他忍者比例不统一",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/pain.png"
+  },
+  {
+    "id": "ino",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/ino.png"
+  },
+  {
+    "id": "asuma",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "上沿有相邻卡片的边框残片",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/asuma.png"
+  },
+  {
+    "id": "kankuro",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/kankuro.png"
+  },
+  {
+    "id": "lee",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/lee.png"
+  },
+  {
+    "id": "tsunade",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/tsunade.png"
+  },
+  {
+    "id": "neji",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/neji.png"
+  },
+  {
+    "id": "shino",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "上下不对称留黑，顶部边缘杂片",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/shino.png"
+  },
+  {
+    "id": "sasuke",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/sasuke.png"
+  },
+  {
+    "id": "yamato",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "右侧边框与稀有度文字被裁断",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/yamato.png"
+  },
+  {
+    "id": "shikamaru",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/shikamaru.png"
+  },
+  {
+    "id": "kurenai",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "上下不对称留黑，顶部边缘杂片",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/kurenai.png"
+  },
+  {
+    "id": "sakura",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "右侧边框、稀有度文字被裁断",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/sakura.png"
+  },
+  {
+    "id": "itachi",
+    "kind": "ninja",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/ninja/itachi.png"
+  },
+  {
+    "id": "rinnegan",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "仅剩横向片段，画面高度明显不足",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/rinnegan.png"
+  },
+  {
+    "id": "chakra_thread",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/chakra_thread.png"
+  },
+  {
+    "id": "curse_mark",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/curse_mark.png"
+  },
+  {
+    "id": "wood_domain",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "仅剩横向片段，卡牌主体高度明显不足",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/wood_domain.png"
+  },
+  {
+    "id": "flying_raijin",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "右侧边框被截断",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/flying_raijin.png"
+  },
+  {
+    "id": "sharingan",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "左侧装饰和底部价格数字被裁断",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/sharingan.png"
+  },
+  {
+    "id": "medical_seal",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/medical_seal.png"
+  },
+  {
+    "id": "shadow_scroll",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/shadow_scroll.png"
+  },
+  {
+    "id": "edo_tensei",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "仅剩横向片段，右侧边缘裁断",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/edo_tensei.png"
+  },
+  {
+    "id": "element_prism",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "仅剩横向片段，顶部混入邻卡边框",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/element_prism.png"
+  },
+  {
+    "id": "combo_engine",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "仅剩横向片段，顶部混入邻卡文字和边框",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/combo_engine.png"
+  },
+  {
+    "id": "jinchuriki_core",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "左边框与价格数字缺失",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/jinchuriki_core.png"
+  },
+  {
+    "id": "sage_mode",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/sage_mode.png"
+  },
+  {
+    "id": "eight_gates",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "缩略图未发现明显主体缺口；留黑和卡框比例不统一，统一重绘以消除旧排版与静态数值",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/eight_gates.png"
+  },
+  {
+    "id": "destiny_knot",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "仅剩横向片段，顶部混入邻卡边框",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/destiny_knot.png"
+  },
+  {
+    "id": "team_tactics",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "右侧边框与装饰被裁断",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/team_tactics.png"
+  },
+  {
+    "id": "limit_break",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "仅剩横向片段，顶部混入邻卡文字和边框",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/limit_break.png"
+  },
+  {
+    "id": "akatsuki_ring",
+    "kind": "relic",
+    "original_size": [
+      500,
+      800
+    ],
+    "finding": "仅剩横向片段，卡牌主体高度明显不足",
+    "action": "整幅独立重绘并替换",
+    "replacement": "assets/generated/relic/akatsuki_ring.png"
+  }
+]
