@@ -19,7 +19,11 @@ const Game = (() => {
     if(!['battle','shop'].includes(state.phase)||busy)return;
     try{localStorage.setItem(SAVE_KEY,JSON.stringify({version:3,state,uidCounter}));}catch(e){saveWarning=true;}
   }
-  function savedRun(){try{const v=JSON.parse(localStorage.getItem(SAVE_KEY));return v?.version===3&&['battle','shop'].includes(v.state?.phase)&&v.state.deck.every(c=>byId[c.id])&&v.state.relics.every(id=>relicById[id])?v:null}catch(e){return null}}
+  function savedRun(){try{
+    let v=JSON.parse(localStorage.getItem(SAVE_KEY));
+    if(!v){const legacy=JSON.parse(localStorage.getItem('shinobi-cascade-v2'));if(legacy?.version===2){const seed=newSeed();legacy.version=3;legacy.state={...legacy.state,seed,rngState:seed,awakenings:{},weakElement:null};v=legacy}}
+    return v?.version===3&&['battle','shop'].includes(v.state?.phase)&&v.state.deck.every(c=>byId[c.id])&&v.state.relics.every(id=>relicById[id])?v:null
+  }catch(e){return null}}
   function resume(){const v=savedRun();if(!v)return;state=v.state;uidCounter=v.uidCounter;busy=false;state.selected=[];state.helpOpen=false;state.awakenings||={};detail=null;mapOpen=false;combatSheetOpen=false;render();}
   function clearSave(){try{localStorage.removeItem(SAVE_KEY);localStorage.removeItem('shinobi-cascade-v2')}catch(e){}}
   function viewCard(kind,id){detail={kind,id};render();}

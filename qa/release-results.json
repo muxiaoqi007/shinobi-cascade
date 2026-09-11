@@ -5,8 +5,8 @@
   "independent_generated_sources": 91,
   "old_assets_in_release": 0,
   "external_requests": 0,
-  "html_bytes": 13448234,
-  "html_sha256": "6b9b04c97c471c8a934202c017d618c8f8a15bbe430ba208ef691a0d4472c144",
+  "html_bytes": 13448478,
+  "html_sha256": "6a7e5db3df3d7d8d06097ff175353be910e17feb94f3891961088fd43fcae27a",
   "browser_checks": [
     "Natural first battle won; damage preview equals actual hit; particles and combo chips visible",
     "Shop purchase, persisted currency and resume work",
