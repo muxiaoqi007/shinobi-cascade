@@ -17,16 +17,18 @@ const ROOT=path.resolve(__dirname,'..');
  await page.waitForFunction(()=>Game.test.state().phase==='shop',null,{timeout:10000});assert.equal(await page.evaluate(()=>Game.test.state().stats.maxHit),expected);report.checks.push('Natural first battle won; damage preview equals actual hit; particles and combo chips visible');
  await page.screenshot({path:path.join(__dirname,'desktop-shop.png'),fullPage:true});
  const money=await page.evaluate(()=>Game.test.state().money);const buy=page.locator('.buy-button:not([disabled])').first();const cost=Number((await buy.textContent()).match(/\d+/)[0]);if(money>=cost){await buy.click();assert.equal(await page.evaluate(()=>Game.test.state().money),money-cost);}
+ await page.getByRole('button',{name:'保存并返回主页',exact:true}).last().click();await page.getByRole('button',{name:'继续已保存的远征'}).click();assert.equal(await page.evaluate(()=>Game.test.state().phase),'shop');
  await page.reload();await page.getByRole('button',{name:'继续已保存的远征'}).click();assert.equal(await page.evaluate(()=>Game.test.state().phase),'shop');report.checks.push('Shop purchase, persisted currency and resume work');
  await page.getByRole('button',{name:/前往下一战/}).click();assert.equal(await page.evaluate(()=>Game.test.state().encounterIndex),1);
  await page.getByRole('button',{name:'卡牌与连携图鉴'}).click();assert.equal(await page.locator('.library-card').count(),55);await page.getByRole('button',{name:'秘卷 36',exact:true}).click();assert.equal(await page.locator('.library-card').count(),36);await page.screenshot({path:path.join(__dirname,'desktop-relic-codex.png'),fullPage:true});await page.getByRole('button',{name:'关闭图鉴'}).click();
  await page.locator('.inspect-card').first().click();await page.screenshot({path:path.join(__dirname,'desktop-card-detail.png'),fullPage:true});assert(await page.locator('.card-detail>img').evaluate(im=>im.complete&&im.naturalWidth>0));await page.getByRole('button',{name:'关闭卡牌详情'}).click();
- await page.getByRole('button',{name:'远征地图'}).click();assert.equal(await page.locator('.map-chapter').count(),10);await page.screenshot({path:path.join(__dirname,'desktop-map.png'),fullPage:true});await page.getByRole('button',{name:'关闭地图'}).click();
+ await page.getByRole('button',{name:'远征地图'}).click();assert.equal(await page.locator('.map-chapter').count(),14);await page.screenshot({path:path.join(__dirname,'desktop-map.png'),fullPage:true});await page.getByRole('button',{name:'关闭地图'}).click();
  for(const size of [{width:390,height:844},{width:360,height:800},{width:768,height:1024}]){
   await page.setViewportSize(size);await page.evaluate(()=>{Game.start('storm');Game.test.setState({encounterIndex:14});Game.test.startBattle()});await page.waitForTimeout(150);
   const layout=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,cards:[...document.querySelectorAll('.ninja-card')].map(e=>({width:e.getBoundingClientRect().width,height:e.getBoundingClientRect().height})),broken:[...document.images].filter(im=>!im.complete||im.naturalWidth===0).length,bossVisible:innerWidth>720||document.querySelector('.mobile-threat').getBoundingClientRect().height>0}));
   assert(layout.scrollWidth<=size.width,'No horizontal overflow');assert.equal(layout.broken,0);assert(layout.bossVisible);report.viewports.push({...size,...layout});
   await page.screenshot({path:path.join(__dirname,`battle-${size.width}.png`),fullPage:true});
+  await page.getByRole('button',{name:'保存并返回主页',exact:true}).click();await page.getByRole('button',{name:'继续已保存的远征'}).click();assert.equal(await page.evaluate(()=>Game.test.state().encounterIndex),14);
   await page.locator('.ninja-card').first().click();assert.equal(await page.locator('.ninja-card.selected').count(),1);
   await page.locator('.inspect-card').first().click();await page.screenshot({path:path.join(__dirname,`detail-${size.width}.png`),fullPage:true});await page.getByRole('button',{name:'关闭卡牌详情'}).click();
  }
@@ -43,6 +45,6 @@ const ROOT=path.resolve(__dirname,'..');
  await tp.getByRole('button',{name:/前往下一战/}).tap();assert.equal(await tp.evaluate(()=>Game.test.state().encounterIndex),3);
  await tp.getByRole('button',{name:'战况'}).tap();await tp.getByRole('button',{name:'卡牌与连携图鉴'}).tap();await tp.getByRole('button',{name:'秘卷 36',exact:true}).tap();await tp.screenshot({path:path.join(__dirname,'mobile-relic-codex.png'),fullPage:true});await tp.getByRole('button',{name:'关闭图鉴'}).tap();
  assert(await tp.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));report.checks.push('Touch emulation: tap select, redraw, inspect, chapter boon, shop advance, mobile codex');await touch.close();
- assert.equal(report.errors.length,0,report.errors.join('\n'));assert.equal(report.externalRequests.length,0,'No network dependencies');report.checks.push('55 ninja + 36 relic gallery, 10 chapter map, full card detail, mobile card selection, offline loading, no console errors');
+ assert.equal(report.errors.length,0,report.errors.join('\n'));assert.equal(report.externalRequests.length,0,'No network dependencies');report.checks.push('55 ninja + 36 relic gallery, 14 chapter map, full card detail, mobile card selection, offline loading, no console errors');
  fs.writeFileSync(path.join(__dirname,'browser-results.json'),JSON.stringify(report,null,2));await browser.close();console.log(JSON.stringify(report,null,2));
 })().catch(e=>{console.error(e);process.exit(1)});

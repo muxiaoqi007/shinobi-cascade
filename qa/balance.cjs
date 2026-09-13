@@ -1,11 +1,12 @@
 const {environment}=require('./engine-tests.cjs');const fs=require('fs'),path=require('path');
-function simulate(seed,build){
- const e=environment(seed),g=e.game,t=g.test,d=e.data;g.start(build);const turns=[];let loops=0;
+function simulate(seed,build,policy='planned'){
+ const e=environment(seed),g=e.game,t=g.test,d=e.data;g.start(build,seed*2654435761>>>0);const turns=[];let loops=0;
  function pickBest(pool,tries=190){
+  if(policy==='random')tries=1;
   let best={damage:0,ids:[]};const max=d.ENCOUNTERS[t.state().encounterIndex].mod==='seal'?4:5;
   for(let j=0;j<tries;j++){
    const cs=[...pool];for(let i=cs.length-1;i>0;i--){const k=Math.floor(e.random()*(i+1));[cs[i],cs[k]]=[cs[k],cs[i]];}
-   const count=j%12===0?1:j%12===1?2:j%12===2?3:max;const hand=cs.slice(0,count);const r=t.evaluate(hand.map(c=>c.id));if(r.damage>best.damage)best={damage:r.damage,ids:hand.map(c=>c.uid)};
+   const count=policy==='random'?max:j%12===0?1:j%12===1?2:j%12===2?3:j%12===3?4:max;const hand=cs.slice(0,count);const r=t.evaluate(hand.map(c=>c.id));if(r.damage>best.damage)best={damage:r.damage,ids:hand.map(c=>c.uid)};
   }return best;
  }
  while(['battle','shop'].includes(t.state().phase)&&loops++<400){
@@ -33,7 +34,7 @@ function simulate(seed,build){
    g.nextBattle();
   }
  }
- const st=t.state();return {seed,build,win:st.phase==='victory',battles:st.stats.battles,plays:turns.length,peak:st.stats.maxHit,relics:st.relics,deck:st.deck.length,turns};
+ const st=t.state();return {seed,build,policy,win:st.phase==='victory',battles:st.stats.battles,plays:turns.length,peak:st.stats.maxHit,relics:st.relics,deck:st.deck.length,turns};
 }
-const count=Number(process.argv[2]||3);const result=[];for(const build of ['leaf','storm','dawn'])for(let seed=1;seed<=count;seed++){const r=simulate(seed,build);result.push(r);console.log(JSON.stringify({...r,turns:undefined}));}
+const count=Number(process.argv[2]||3);const result=[];for(const policy of ['random','planned'])for(const build of ['leaf','storm','dawn'])for(let seed=1;seed<=count;seed++){const r=simulate(seed,build,policy);result.push(r);console.log(JSON.stringify({...r,turns:undefined}));}
 fs.writeFileSync(path.join(__dirname,'balance-results.json'),JSON.stringify(result,null,2));

@@ -15,6 +15,7 @@ const Game = (() => {
   let detail = null, libraryTab = 'ninja', libraryFilter = '', mapOpen = false, combatSheetOpen=false, combatSheetTab='relics';
   const SAVE_KEY='shinobi-cascade-v3';
   let saveWarning=false;
+  let homeRequested=false;
   function save(){
     if(!['battle','shop'].includes(state.phase)||busy)return;
     try{localStorage.setItem(SAVE_KEY,JSON.stringify({version:3,state,uidCounter}));}catch(e){saveWarning=true;}
@@ -25,6 +26,10 @@ const Game = (() => {
     return v?.version===3&&['battle','shop'].includes(v.state?.phase)&&v.state.deck.every(c=>byId[c.id])&&v.state.relics.every(id=>relicById[id])?v:null
   }catch(e){return null}}
   function resume(){const v=savedRun();if(!v)return;state=v.state;uidCounter=v.uidCounter;busy=false;state.selected=[];state.helpOpen=false;state.awakenings||={};detail=null;mapOpen=false;combatSheetOpen=false;render();}
+  function home(){
+    if(busy){homeRequested=true;toast('结算完成后自动保存并返回主页');return;}
+    save();state=freshState();detail=null;mapOpen=false;combatSheetOpen=false;homeRequested=false;render();
+  }
   function clearSave(){try{localStorage.removeItem(SAVE_KEY);localStorage.removeItem('shinobi-cascade-v2')}catch(e){}}
   function viewCard(kind,id){detail={kind,id};render();}
   function closeDetail(){detail=null;render();}
@@ -61,7 +66,7 @@ const Game = (() => {
   function clamp(v,a,b){return Math.max(a,Math.min(b,v));}
   function hasRelic(id){return state.relics.includes(id)}
   function enc(){const e=ENCOUNTERS[state.encounterIndex];return {...e,target:Math.round(e.target*1.75**(state.bossPhase||0)),phases:e.mod?(e.chapter<=5?2:3):1};}
-  function currentRule(){if(Object.prototype.hasOwnProperty.call(state,'ruleOverride'))return state.ruleOverride;const e=enc();return e.mod?(BOSS_PHASE_RULES[e.mod]||[])[state.bossPhase||0]||e.rule:e.rule}
+  function currentRule(){if(Object.prototype.hasOwnProperty.call(state,'ruleOverride'))return state.ruleOverride;const e=enc();return e.mod?(e.phaseRules||BOSS_PHASE_RULES[e.mod]||[])[state.bossPhase||0]||e.rule:e.rule}
   function fmt(n){
     n=Math.max(0,Math.round(n||0));
     if(n<10000) return n.toLocaleString('zh-CN');
@@ -176,6 +181,7 @@ const Game = (() => {
     destiny.forEach(d=>addCombo(combos,d[0],d[1],'legend'));
 
     // Ordered elemental / tactical chains.
+    const orderedStart=combos.length;
     let raijinLinks=0;
     for(let i=0;i<ninjas.length-1;i++){
       const a=ninjas[i], b=ninjas[i+1];
@@ -191,6 +197,7 @@ const Game = (() => {
       if(a.roles.includes('控制')&&b.roles.includes('强攻')) addCombo(combos,'控制锁定 → 斩杀',1.5,'normal');
     }
 
+    const orderedEnd=combos.length;
     if(elements.size===3) addCombo(combos,'三性变化·复合忍术',2.25,'normal');
     if(elements.size===4) addCombo(combos,'四象联弹·属性共振',4.8,'hot');
     if(elements.size>=5) addCombo(combos,'五遁大连弹·属性崩解',13,'legend');
@@ -201,6 +208,7 @@ const Game = (() => {
 
     for(const r of EXTRA_TAG_RULES)if(tags.has(r.tag)&&(r.elements?r.elements.every(e=>elements.has(e)):roles.has(r.role)))addCombo(combos,r.name,r.mult,'hot');
 
+    combos.forEach((c,i)=>{c.nominalMult=c.mult;c.mult=Math.pow(c.mult,i>=orderedStart&&i<orderedEnd?1:.38);});
     let comboMult=combos.reduce((m,c)=>m*c.mult,1);
     const relicSteps=[];
     const attackCount=ninjas.filter(n=>n.roles.includes('强攻')).length;
@@ -210,7 +218,7 @@ const Game = (() => {
     const maxTeamCount=Math.max(0,...Object.values(ninjas.flatMap(n=>n.teams).reduce((o,t)=>(o[t]=(o[t]||0)+1,o),{})));
     let finalMult=1;
 
-    function rel(name,m,kind='relic'){ if(m!==1){finalMult*=m;relicSteps.push({name,mult:m,kind});} }
+    function rel(name,m,kind='relic'){ if(m!==1){const effective=kind==='relic'&&m>1?Math.pow(m,.38):m;finalMult*=effective;relicSteps.push({name,mult:effective,kind});} }
     if(rule==='trio'&&cards.length===3)rel('战场·三人结印',2,'rule');
     if(rule==='exact_four'&&cards.length===4)rel('战场·精英阵式',2.5,'rule');
     if(rule==='support_first'&&ninjas[0]&&ninjas[0].roles.some(r=>['支援','医疗','战术'].includes(r)))rel('战场·战地补给',2,'rule');
@@ -256,8 +264,12 @@ const Game = (() => {
     if(enc().mod==='armor'&&elements.size<3)rel('砂壁·伤害削减',.35,'boss');
     if(enc().mod==='thorns'&&state.previousCount===cards.length)rel('骨林·重复惩罚',.4,'boss');
     if(enc().mod==='puppet'&&!roles.has('战术'))rel('傀儡·战术压制',.45,'boss');
+    if(rule==='precision'&&![3,4].includes(cards.length))rel('精准结印·张数不符',.25,'boss');
+    if(rule==='reversal'&&ninjas[0])rel('逆流领域',ninjas[0].roles.some(r=>['支援','医疗','战术'].includes(r))?1.5:ninjas[0].roles.includes('强攻')?.35:1,'boss');
+    if(rule==='silence'&&!roles.has('控制'))rel('静默·缺少控制',.3,'boss');
+    if(rule==='adaptation'&&state.previousCount===cards.length)rel('战术适应',.2,'boss');
     // Chapter mastery lets all viable archetypes scale; relics still multiply on top.
-    const mastery=1.42**(enc().chapter-1);rel('远征熟练度',mastery);
+    const mastery=1.08**(enc().chapter-1);rel('远征熟练度',mastery);
     const damage=Math.min(Number.MAX_SAFE_INTEGER,Math.round(base*baseMult*comboMult*finalMult));
     return {base,baseMult,comboMult,finalMult,damage,combos,relicSteps,elements:[...elements],destinyCount};
   }
@@ -427,15 +439,15 @@ const Game = (() => {
     const chapterProgress=[1,2,3].map(w=>`<i class="${w<=e.wave?'on':''}"></i>`).join('');
     return `<div class="shell" id="shell">
       <header class="topbar"><div class="brand"><div class="brand-mark">忍</div><div><div class="brand-title">SHINOBI CASCADE</div><div class="brand-sub">忍 界 连 锁</div></div></div>
-      <div class="stage"><b>${e.chapter}/10 · ${e.chapterName}</b>${chapterProgress}<span style="font-size:10px;color:#6f8994">${e.wave}/3</span></div>
-      <div class="resources"><div class="pill">両 <strong>${state.money}</strong></div><button class="mobile-sheet-button" onclick="Game.toggleCombatSheet('relics')">秘卷 ${state.relics.length}/5</button><button class="mobile-sheet-button" onclick="Game.toggleCombatSheet('log')">战况</button><button class="iconbtn desktop-tool" aria-label="远征地图" onclick="Game.toggleMap()">路</button><button class="iconbtn desktop-tool" aria-label="卡牌与连携图鉴" onclick="Game.toggleHelp()">卷</button><button class="iconbtn desktop-tool" onclick="Game.toggleSound()">${SFX.enabled?'♪':'×'}</button></div></header>
+      <div class="stage"><b>${e.chapter}/${CHAPTER_COUNT} · ${e.chapterName}</b>${chapterProgress}<span style="font-size:10px;color:#6f8994">${e.wave}/3</span></div>
+      <div class="resources"><button class="iconbtn home-button" aria-label="保存并返回主页" title="保存并返回主页" onclick="Game.home()">⌂</button><div class="pill">両 <strong>${state.money}</strong></div><button class="mobile-sheet-button" onclick="Game.toggleCombatSheet('relics')">秘卷 ${state.relics.length}/5</button><button class="mobile-sheet-button" onclick="Game.toggleCombatSheet('log')">战况</button><button class="iconbtn desktop-tool" aria-label="远征地图" onclick="Game.toggleMap()">路</button><button class="iconbtn desktop-tool" aria-label="卡牌与连携图鉴" onclick="Game.toggleHelp()">卷</button><button class="iconbtn desktop-tool" onclick="Game.toggleSound()">${SFX.enabled?'♪':'×'}</button></div></header>
       <main class="main">
         <aside class="panel left"><div class="panel-title">Threat / 威胁目标</div><div class="enemy-card"><div class="enemy-kicker">${e.title}</div><div class="enemy-name">${e.name}</div><div class="target-row">击破阈值</div><div class="target-num">${fmt(e.target)}</div><div class="boss-mod">${boss}</div></div>
           <div class="progress-box"><div class="progress-label"><span>本战伤害</span><b>${fmt(state.score)} / ${fmt(e.target)}</b></div><div class="bar"><i style="width:${pct}%"></i></div></div>
           <div class="stat-grid"><div class="stat"><span>剩余出击</span><strong class="cyan">${state.playsLeft}</strong></div><div class="stat"><span>剩余换手</span><strong class="gold">${state.redraws}</strong></div><div class="stat"><span>队伍</span><strong>${state.deck.length}</strong></div><div class="stat"><span>修炼</span><strong>+${state.training}</strong></div></div>
-          <div class="help">远征熟练度 ×${(1.42**(e.chapter-1)).toFixed(1)}<br>每胜全队威力 +3。<br>按选择顺序触发连携。<br><span class="kbd">Enter</span> 出击　<span class="kbd">R</span> 换手<br><span class="kbd">1–8</span> 快速选牌</div>
+          <div class="help">远征熟练度 ×${(1.08**(e.chapter-1)).toFixed(1)}<br>每胜全队威力 +3。<br>顺序连携保留全倍率。<br>羁绊 / 秘卷倍率按 0.38 次方叠加。<br><span class="kbd">Enter</span> 出击　<span class="kbd">R</span> 换手<br><span class="kbd">1–8</span> 快速选牌</div>
         </aside>
-        <section class="panel board"><div class="mobile-threat"><b>${e.chapter}-${e.wave} ${e.name}</b><span>还差 ${fmt(Math.max(0,e.target-state.score))} · ${state.bossSealElement?`${state.bossSealElement}封印`:state.weakElement?`${state.weakElement}弱点`:`出击 ${state.playsLeft}`}</span>${boss?`<p>${boss}</p>`:''}</div><div class="arena"><div class="arena-rings"></div><div class="score-stage"><div class="chain-title" id="chainTitle">${state.selected.length?`已结印 ${state.selected.length}/${maxSelect()} · 拖动下方轨道调整顺序`:'选择忍者 · 属性顺序决定连锁'}</div><div class="big-score" id="scoreNum">${fmt(preview?preview.damage:state.lastResult?state.lastResult.damage:0)}</div><div class="equation"><span>本战累计</span><b>${exact(state.score)}</b><span class="mul">/</span><span>威胁 ${exact(e.target)}</span></div><div class="preview-meta">${preview?`预计伤害 · ${preview.combos.length} 个组合 · 总倍率 ×${fmt(preview.baseMult*preview.comboMult*preview.finalMult)}`:state.lastResult?'上次出击 · 连锁结算':'先选支援 / 控制，再接强攻试试'}</div><div class="combo-stack" id="comboStack">${shown?[...shown.combos,...shown.relicSteps].slice(0,8).map(c=>`<span class="combo-chip ${c.kind}">${c.name} ×${c.mult}</span>`).join(''):''}</div></div></div>
+        <section class="panel board"><div class="mobile-threat"><b>${e.chapter}-${e.wave} ${e.name}</b><span>还差 ${fmt(Math.max(0,e.target-state.score))} · ${state.bossSealElement?`${state.bossSealElement}封印`:state.weakElement?`${state.weakElement}弱点`:`出击 ${state.playsLeft}`}</span>${boss?`<p>${boss}</p>`:''}</div><div class="arena"><div class="arena-rings"></div><div class="score-stage"><div class="chain-title" id="chainTitle">${state.selected.length?`已结印 ${state.selected.length}/${maxSelect()} · 拖动下方轨道调整顺序`:'选择忍者 · 属性顺序决定连锁'}</div><div class="big-score" id="scoreNum">${fmt(preview?preview.damage:state.lastResult?state.lastResult.damage:0)}</div><div class="equation"><span>本战累计</span><b>${exact(state.score)}</b><span class="mul">/</span><span>威胁 ${exact(e.target)}</span></div><div class="preview-meta">${preview?`预计伤害 · ${preview.combos.length} 个组合 · 总倍率 ×${fmt(preview.baseMult*preview.comboMult*preview.finalMult)}`:state.lastResult?'上次出击 · 连锁结算':'先选支援 / 控制，再接强攻试试'}</div><div class="combo-stack" id="comboStack">${shown?[...shown.combos,...shown.relicSteps].slice(0,8).map(c=>`<span class="combo-chip ${c.kind}">${c.name} ×${Number(c.mult.toFixed(2))}</span>`).join(''):''}</div></div></div>
           <div class="hand-zone"><div class="chain-rail" aria-label="出手顺序">${chainRailHtml()}</div><div class="hand-meta"><span>HAND / 手牌 ${state.hand.length}</span><span>${state.lockedUid?'神树锁定 1 张':'点卡加入 · 箭头微调顺序'}</span></div><div class="hand">${handHtml}</div></div>
         </section>
         <aside class="panel right"><div class="panel-title">Scrolls / 秘卷构筑 ${state.relics.length}/5</div><div class="relic-list">${relics}</div><div class="deck-mini"><div class="panel-title">Build / 当前构筑</div><div class="deck-summary">${buildTags().map(x=>`<span class="deck-tag">${x}</span>`).join('')}</div></div><div class="log"><div class="panel-title">Battle log</div>${state.log.map(x=>`<div class="log-line">${x}</div>`).join('')}</div></aside>
@@ -455,7 +467,7 @@ const Game = (() => {
 
   function renderMenu(){
     const canResume=savedRun();
-    return `<div class="overlay menu-overlay"><div class="modal hero-modal"><div class="hero-art"><img src="${CARD_ART.ninja.naruto}" alt="鸣人"><img src="${CARD_ART.ninja.sasuke}" alt="佐助"><img src="${CARD_ART.ninja.kakashi}" alt="卡卡西"></div><div class="hero-content"><div class="panel-title">ROGUELIKE DECKBUILDER / 完整独立卡面版</div><h1>SHINOBI<br>CASCADE<em>忍 界 连 锁</em></h1><p>以忍术结印，以羁绊破局。<br>让每一张牌，都成为下一场数字爆炸的引线。</p><div class="feature-row"><div class="feature"><b>${NINJAS.length} 名忍者</b><span>三种起始流派</span></div><div class="feature"><b>${RELICS.length} 张秘卷</b><span>无限乘法构筑</span></div><div class="feature"><b>10 章 · 30 战</b><span>10 种机制 · 多层结界</span></div><div class="feature"><b>20–30 分钟</b><span>自动保存远征进度</span></div></div><div class="starter-choices">${Object.entries(STARTER_BUILDS).map(([id,b])=>`<button onclick="Game.start('${id}')"><b>${b.name}</b><span>${b.hint}</span><em>开始远征 →</em></button>`).join('')}</div>${canResume?'<button class="startbtn resume" onclick="Game.resume()">继续已保存的远征</button>':''}<button class="text-button" onclick="Game.toggleHelp()">浏览全部卡牌与连携图鉴 →</button><p class="small-note">离线单文件 · 生成式同人美术 · WebAudio 合成音效<br>战斗间自动保存；游玩时长取决于思考与操作速度。</p></div></div></div>${helpOverlay()}`;
+    return `<div class="overlay menu-overlay"><div class="modal hero-modal"><div class="hero-art"><img src="${CARD_ART.ninja.naruto}" alt="鸣人"><img src="${CARD_ART.ninja.sasuke}" alt="佐助"><img src="${CARD_ART.ninja.kakashi}" alt="卡卡西"></div><div class="hero-content"><div class="panel-title">ROGUELIKE DECKBUILDER / 完整独立卡面版</div><h1>SHINOBI<br>CASCADE<em>忍 界 连 锁</em></h1><p>以忍术结印，以羁绊破局。<br>让每一张牌，都成为下一场数字爆炸的引线。</p><div class="feature-row"><div class="feature"><b>${NINJAS.length} 名忍者</b><span>三种起始流派</span></div><div class="feature"><b>${RELICS.length} 张秘卷</b><span>连携优先 · 秘卷递减</span></div><div class="feature"><b>${CHAPTER_COUNT} 章 · ${ENCOUNTERS.length} 战</b><span>新增 4 章 · 高压试炼</span></div><div class="feature"><b>25–40 分钟</b><span>自动保存远征进度</span></div></div><div class="starter-choices">${Object.entries(STARTER_BUILDS).map(([id,b])=>`<button onclick="Game.start('${id}')"><b>${b.name}</b><span>${b.hint}</span><em>开始远征 →</em></button>`).join('')}</div>${canResume?'<button class="startbtn resume" onclick="Game.resume()">继续已保存的远征</button>':''}<button class="text-button" onclick="Game.toggleHelp()">浏览全部卡牌与连携图鉴 →</button><p class="small-note">离线单文件 · 生成式同人美术 · WebAudio 合成音效<br>战斗间自动保存；游玩时长取决于思考与操作速度。</p></div></div></div>${helpOverlay()}`;
   }
 
   function shopItemHtml(item,i){
@@ -470,13 +482,13 @@ const Game = (() => {
     return `${battleShell()}<div class="overlay"><div class="modal"><div class="shop-head"><div><div class="panel-title">POST BATTLE / 战后补给</div><h2>${e.name} · 已击破</h2><p>下一战：第 ${next.chapter} 章 ${next.wave}/3 · ${next.name} · 目标 ${fmt(next.target)}</p></div><div class="money">${state.money} 両</div></div>
       ${state.boonPending?`<div class="boon-panel"><h3>章节突破 · 选择一份奖励</h3><div class="boon-choices">${BOONS.map(b=>`<button onclick="Game.chooseBoon('${b.id}')"><b>${b.name}</b><span>${b.text}</span></button>`).join('')}</div></div>`:''}<div class="shop-section-title">招募 / 秘卷 / 修炼 · 点击卡面查看完整详情</div><div class="shop-grid">${state.shopItems.map(shopItemHtml).join('')}</div>
       <div class="shop-section-title">OWNED SCROLLS · 点击出售（50% 回收）</div><div class="owned-relics">${state.relics.map(id=>`<span class="owned-chip" onclick="Game.sellRelic('${id}')">${relicById[id].icon} ${relicById[id].name}</span>`).join('')||'<span style="color:#607985;font-size:10px">暂无秘卷</span>'}</div>
-      <details class="retire-panel"><summary>队伍精简 · ${state.deck.length} 张（每张花费 3 両，至少保留 8 张）</summary><div class="owned-relics">${state.deck.map(c=>`<button class="owned-chip" onclick="Game.retire('${c.uid}')" ${state.deck.length<=8||state.money<3?'disabled':''}>休整 · ${byId[c.id].short}</button>`).join('')}</div></details><div class="shop-foot"><button onclick="Game.rerollShop()">重掷商品 · ${state.shopRerollCost} 両</button><button class="next" onclick="Game.nextBattle()">前往下一战 →</button></div></div></div>`;
+      <details class="retire-panel"><summary>队伍精简 · ${state.deck.length} 张（每张花费 3 両，至少保留 8 张）</summary><div class="owned-relics">${state.deck.map(c=>`<button class="owned-chip" onclick="Game.retire('${c.uid}')" ${state.deck.length<=8||state.money<3?'disabled':''}>休整 · ${byId[c.id].short}</button>`).join('')}</div></details><div class="shop-foot"><button onclick="Game.home()">保存并返回主页</button><button onclick="Game.rerollShop()">重掷商品 · ${state.shopRerollCost} 両</button><button class="next" onclick="Game.nextBattle()">前往下一战 →</button></div></div></div>`;
   }
 
   function renderEnd(win){
     const sec=Math.max(1,Math.floor((Date.now()-state.stats.startTime)/1000)), min=Math.floor(sec/60), s=sec%60;
     const rank=win?(state.stats.maxHit>1e10?'SSS':state.stats.maxHit>1e9?'SS':'S'):'D';
-    return `<div class="overlay"><div class="modal endbox"><div class="rank">${rank}</div><h2>${win?'忍界连锁完成':'远征中断'}</h2><p style="color:#829aa4">${win?'你把连携系统推到了终焉之谷之外。':'构筑还没成型。换一种羁绊与秘卷路线再来。'}</p><div class="endstats"><div><span>推进战斗</span><b>${state.stats.battles}/${ENCOUNTERS.length}</b></div><div><span>最大单击</span><b>${fmt(state.stats.maxHit)}</b></div><div><span>累计伤害</span><b>${fmt(state.stats.totalDamage)}</b></div><div><span>用时</span><b>${min}:${String(s).padStart(2,'0')}</b></div></div><p class="small-note">远征种子 ${state.seed} · 使用 ?seed=${state.seed} 可重现本局随机结果</p><button class="startbtn" onclick="Game.start()">重新远征</button></div></div>`;
+    return `<div class="overlay"><div class="modal endbox"><div class="rank">${rank}</div><h2>${win?'忍界连锁完成':'远征中断'}</h2><p style="color:#829aa4">${win?'你把连携系统推到了终焉之谷之外。':'构筑还没成型。换一种羁绊与秘卷路线再来。'}</p><div class="endstats"><div><span>推进战斗</span><b>${state.stats.battles}/${ENCOUNTERS.length}</b></div><div><span>最大单击</span><b>${fmt(state.stats.maxHit)}</b></div><div><span>累计伤害</span><b>${fmt(state.stats.totalDamage)}</b></div><div><span>用时</span><b>${min}:${String(s).padStart(2,'0')}</b></div></div><p class="small-note">远征种子 ${state.seed} · 使用 ?seed=${state.seed} 可重现本局随机结果</p><button class="startbtn" onclick="Game.start()">重新远征</button><button class="text-button" onclick="Game.home()">返回主页</button></div></div>`;
   }
 
   function libraryGrid(){
@@ -486,7 +498,7 @@ const Game = (() => {
   }
   function helpOverlay(){
     if(!state.helpOpen)return'';
-    return `<div class="overlay library-overlay"><div class="modal"><div class="shop-head"><div><div class="panel-title">SHINOBI ARCHIVE</div><h2>忍界图鉴</h2><p>按选择顺序结印，每一层组合倍率相乘。</p></div><button class="iconbtn" aria-label="关闭图鉴" onclick="Game.toggleHelp()">×</button></div><div class="library-tabs">${[['ninja',`忍者 ${NINJAS.length}`],['relic',`秘卷 ${RELICS.length}`],['combo',`羁绊与连携 ${COMBO_GLOSSARY.length}`]].map(([id,label])=>`<button class="${libraryTab===id?'active':''}" onclick="Game.setLibrary('${id}')">${label}</button>`).join('')}<input aria-label="搜索图鉴" placeholder="搜索名字 / 阵营 / 属性" oninput="Game.filterLibrary(this.value)"></div><div id="libraryGrid" class="library-grid ${libraryTab==='combo'?'combo-grid':''}">${libraryGrid()}</div></div></div>`;
+    return `<div class="overlay library-overlay"><div class="modal"><div class="shop-head"><div><div class="panel-title">SHINOBI ARCHIVE</div><h2>忍界图鉴</h2><p>按选择顺序结印，顺序连携全额相乘，其他羁绊和秘卷倍率按 0.38 次方叠加，避免无脑堆叠。</p></div><button class="iconbtn" aria-label="关闭图鉴" onclick="Game.toggleHelp()">×</button></div><div class="library-tabs">${[['ninja',`忍者 ${NINJAS.length}`],['relic',`秘卷 ${RELICS.length}`],['combo',`羁绊与连携 ${COMBO_GLOSSARY.length}`]].map(([id,label])=>`<button class="${libraryTab===id?'active':''}" onclick="Game.setLibrary('${id}')">${label}</button>`).join('')}<input aria-label="搜索图鉴" placeholder="搜索名字 / 阵营 / 属性" oninput="Game.filterLibrary(this.value)"></div><div id="libraryGrid" class="library-grid ${libraryTab==='combo'?'combo-grid':''}">${libraryGrid()}</div></div></div>`;
   }
   function detailOverlay(){
     if(!detail)return'';const kind=detail.kind,n=kind==='ninja'?byId[detail.id]:relicById[detail.id];
@@ -494,10 +506,11 @@ const Game = (() => {
     return `<div class="overlay detail-overlay" onclick="Game.closeDetail()"><div class="modal card-detail" onclick="event.stopPropagation()"><img src="${CARD_ART[kind][n.id]}" alt="${n.name}完整独立卡面"><section><button class="iconbtn detail-close" aria-label="关闭卡牌详情" onclick="Game.closeDetail()">×</button><div class="panel-title">${n.rarity.toUpperCase()} / ${kind==='ninja'?'忍者':'秘卷'}</div><h2>${n.name}</h2>${kind==='ninja'?`<p>${n.teams.join(' / ')}</p><p>${n.elements.join(' · ')} / ${n.roles.join(' · ')}</p><p>${n.tags.join(' · ')}</p><div class="detail-stats">威力 ${n.power} <b>×${n.mult.toFixed(2)}</b></div><h3>关联羁绊</h3><p>${pairs.map(r=>`${r.name} ×${r.mult}：${r.ids.map(ninjaName).join(' + ')}`).join('<br>')||'与相同小队、互补属性或战术角色配合。更多规则见连携图鉴。'}</p>`:`<p>${n.text}</p><div class="detail-stats">价格 ${n.cost} 両</div>`}<p class="small-note">整幅独立绘制，完整保留四边；数值以当前游戏数据为准。</p></section></div></div>`;
   }
   function mapOverlay(){
-    if(!mapOpen)return'';return `<div class="overlay"><div class="modal"><div class="shop-head"><div><div class="panel-title">EXPEDITION / 30 ENCOUNTERS · SEED ${state.seed}</div><h2>远征之路</h2></div><button class="iconbtn" aria-label="关闭地图" onclick="Game.toggleMap()">×</button></div><div class="map-grid">${ENCOUNTERS.filter(e=>e.wave===1).map(e=>`<section class="map-chapter ${enc().chapter===e.chapter?'current':''}"><h3>${String(e.chapter).padStart(2,'0')} / ${e.chapterName}</h3>${ENCOUNTERS.filter(x=>x.chapter===e.chapter).map(x=>{const idx=ENCOUNTERS.indexOf(x);return `<p class="${idx<state.encounterIndex?'done':idx===state.encounterIndex?'current':''}">${idx<state.encounterIndex?'✓':idx===state.encounterIndex?'→':'·'} ${x.name}<small>${fmt(x.target)} · ${x.mod?'BOSS 多阶段':RULE_TEXT[x.rule]}</small></p>`}).join('')}</section>`).join('')}</div></div></div>`;
+    if(!mapOpen)return'';return `<div class="overlay"><div class="modal"><div class="shop-head"><div><div class="panel-title">EXPEDITION / ${ENCOUNTERS.length} ENCOUNTERS · SEED ${state.seed}</div><h2>远征之路</h2></div><button class="iconbtn" aria-label="关闭地图" onclick="Game.toggleMap()">×</button></div><div class="map-grid">${ENCOUNTERS.filter(e=>e.wave===1).map(e=>`<section class="map-chapter ${enc().chapter===e.chapter?'current':''}"><h3>${String(e.chapter).padStart(2,'0')} / ${e.chapterName}</h3>${ENCOUNTERS.filter(x=>x.chapter===e.chapter).map(x=>{const idx=ENCOUNTERS.indexOf(x);return `<p class="${idx<state.encounterIndex?'done':idx===state.encounterIndex?'current':''}">${idx<state.encounterIndex?'✓':idx===state.encounterIndex?'→':'·'} ${x.name}<small>${fmt(x.target)} · ${x.mod?'BOSS 多阶段':RULE_TEXT[x.rule]}</small></p>`}).join('')}</section>`).join('')}</div></div></div>`;
   }
 
   function render(){
+    if(homeRequested&&!busy){home();return;}
     if(state.phase==='menu'||!state.phase) app.innerHTML=renderMenu();
     else if(state.phase==='battle') app.innerHTML=battleShell()+helpOverlay();
     else if(state.phase==='shop') app.innerHTML=renderShop()+helpOverlay();
@@ -560,7 +573,7 @@ const Game = (() => {
       el.addEventListener('pointerleave',()=>{el.style.removeProperty('--rx');el.style.removeProperty('--ry');});
     });
   }
-  const api={start,resume,toggleCard,moveSelected,reorderSelected,chainDragStart,chainDrop,play,redraw,buy,sellRelic,rerollShop,nextBattle,toggleHelp,toggleSound,viewCard,closeDetail,toggleMap,toggleCombatSheet,setCombatSheet,setLibrary,filterLibrary,chooseBoon,retire};
+  const api={home,start,resume,toggleCard,moveSelected,reorderSelected,chainDragStart,chainDrop,play,redraw,buy,sellRelic,rerollShop,nextBattle,toggleHelp,toggleSound,viewCard,closeDetail,toggleMap,toggleCombatSheet,setCombatSheet,setLibrary,filterLibrary,chooseBoon,retire};
   // Test harness is opt-in and never enabled by the released HTML.
   if(window.__SHINOBI_TEST__)api.test={state:()=>state,evaluate:(ids)=>evaluate(ids.map(id=>({n:byId[id],inst:{id,bonus:0}}))),setState:v=>{Object.assign(state,v);busy=false;},startBattle,generateShop,render,enc,rarityRoll,currentRule,gameRandom};
   return api;

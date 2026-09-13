@@ -88,3 +88,24 @@ const BASE_BONDS = [
   {name:'宿命·青春传承',ids:['guy','lee'],mult:3},
   {name:'宿命·终焉之谷',ids:['hashirama','madara'],mult:9}
 ];
+
+// Four endgame chapters introduce restrictions that demand deliberate ordering.
+Object.assign(RULE_TEXT,{
+ precision:'精准结印：仅 3 张或 4 张出击造成完整伤害，其他张数伤害 -75%。',
+ reversal:'逆流领域：以强攻开场时伤害 -65%，以支援、医疗或战术开场时 ×1.5。',
+ silence:'静默结界：没有控制角色时伤害 -70%。',
+ adaptation:'战术适应：与上次出击张数相同时伤害 -80%。'
+});
+const ENDGAME=[
+ ['月下追猎','白绝包围','月面伏兵','带土·逆流神威','rift',['precision','reversal','adaptation']],
+ ['六道试炼','轮回守卫','求道玉阵','六道斑·天碍震星','armor',['silence','precision','reversal']],
+ ['天之御中','熔岩空间','冰雪空间','辉夜·始球空间','genjutsu',['reversal','adaptation','silence']],
+ ['忍界终战','联军决胜','宿命回廊','终极试炼·忍界连锁','finale',['precision','silence','adaptation']]
+];
+ENDGAME.forEach(([chapterName,a,b,boss,mod,rules],i)=>{
+ const chapter=11+i;
+ [a,b,boss].forEach((name,j)=>ENCOUNTERS.push({chapter,chapterName,wave:j+1,name,title:j===2?'终局首领':j===1?'精英试炼':'远征遭遇',target:1,reward:20+chapter+(j===2?6:0),mod:j===2?mod:null,rule:rules[j],phaseRules:j===2?rules:undefined}));
+});
+// Rebalanced against both random and search-based policies, not just reachability.
+ENCOUNTERS.forEach((e,i)=>{e.target=Math.round(45000*1.16**i*(e.wave===2?1.15:e.wave===3?1.2:1));});
+const CHAPTER_COUNT=Math.max(...ENCOUNTERS.map(e=>e.chapter));
